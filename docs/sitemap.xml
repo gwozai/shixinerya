@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://yiye.show/post/myfirst/</loc>
+    <lastmod>2020-11-30T21:27:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/post/</loc>
+    <lastmod>2020-11-30T21:27:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/</loc>
+    <lastmod>2020-11-30T21:27:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/tags/</loc>
+  </url>
+  
+</urlset>
