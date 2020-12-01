@@ -3,26 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://yiye.show/post/myfirst/</loc>
+    <loc>lizhuo.asia/post/myfirst/</loc>
     <lastmod>2020-11-30T21:27:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yiye.show/post/</loc>
+    <loc>lizhuo.asia/post/</loc>
     <lastmod>2020-11-30T21:27:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yiye.show/</loc>
+    <loc>lizhuo.asia/</loc>
     <lastmod>2020-11-30T21:27:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yiye.show/categories/</loc>
+    <loc>lizhuo.asia/categories/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yiye.show/tags/</loc>
+    <loc>lizhuo.asia/categories/golang/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lizhuo.asia/tags/golang/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lizhuo.asia/post/hugo/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lizhuo.asia/tags/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lizhuo.asia/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</loc>
   </url>
   
 </urlset>

@@ -2,22 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on YiyeHub</title>
-    <link>http://yiye.show/post/</link>
+    <link>lizhuo.asia/post/</link>
     <description>Recent content in Posts on YiyeHub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Nov 2020 21:27:13 +0800</lastBuildDate>
     
-	<atom:link href="http://yiye.show/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="lizhuo.asia/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Myfirst</title>
-      <link>http://yiye.show/post/myfirst/</link>
+      <link>lizhuo.asia/post/myfirst/</link>
       <pubDate>Mon, 30 Nov 2020 21:27:13 +0800</pubDate>
       
-      <guid>http://yiye.show/post/myfirst/</guid>
+      <guid>lizhuo.asia/post/myfirst/</guid>
       <description>博客开篇 ​	终于弄好了，</description>
+    </item>
+    
+    <item>
+      <title>MyblogSc</title>
+      <link>lizhuo.asia/post/hugo/</link>
+      <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
+      
+      <guid>lizhuo.asia/post/hugo/</guid>
+      <description>推送成功的解决方法 我使用了
+hugo -d docs 的命令 GitHub索引的方法是 docs 文件，我将生成的public替换为docs。
+后面的优化是，javaweb、Youtube上的hugo、和 gitpasage的深入。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>lizhuo.asia/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>lizhuo.asia/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</guid>
+      <description>英语作业-作文 Write an essay of no less than 200 words on one of the following topics:
+ A most influential movie director or movie star A man/woman who changed the world A great sportsman / sportswoman  Details might be organized in chronological (时间顺序) order：
+when he/she was born Jackie Chan Kong-sang，1954年4月7日
+how and where he/she grew up 原籍安徽芜湖
+what educational background he/she had 成龙曾接受幼稚园和小学一年级（入读在1948年至1960年代位于香港岛坚道的南华中学（小学部））的教育，因脾性顽劣，无心向学及父亲调职澳洲关系[18]，小学一年级未完成时就改被送到中国戏剧学院，
+how he/she started his/her career 直到1978年吴思远开拍由袁和平执导的《蛇形刁手》，向罗维借用成龙出任主角，及同年拍摄的《醉拳》，大破东亚各地票房纪录，才取得空前的成功</description>
     </item>
     
   </channel>
