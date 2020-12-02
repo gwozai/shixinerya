@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on YiyeHub</title>
-    <link>lizhuo.asia/tags/</link>
-    <description>Recent content in Tags on YiyeHub</description>
+    <title>Tags on yiye blog</title>
+    <link>http://yiye.show/tags/</link>
+    <description>Recent content in Tags on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Mon, 05 Oct 2020 19:17:42 +0800</lastBuildDate>
     
-	<atom:link href="lizhuo.asia/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yiye.show/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>golang</title>
-      <link>lizhuo.asia/tags/golang/</link>
+      <link>http://yiye.show/tags/golang/</link>
       <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
       
-      <guid>lizhuo.asia/tags/golang/</guid>
+      <guid>http://yiye.show/tags/golang/</guid>
       <description></description>
     </item>
     

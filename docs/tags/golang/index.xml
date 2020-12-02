@@ -1,25 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on YiyeHub</title>
-    <link>lizhuo.asia/tags/golang/</link>
-    <description>Recent content in golang on YiyeHub</description>
+    <title>golang on yiye blog</title>
+    <link>http://yiye.show/tags/golang/</link>
+    <description>Recent content in golang on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Mon, 05 Oct 2020 19:17:42 +0800</lastBuildDate>
     
-	<atom:link href="lizhuo.asia/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yiye.show/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MyblogSc</title>
-      <link>lizhuo.asia/post/hugo/</link>
+      <link>http://yiye.show/post/hugo/</link>
       <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
       
-      <guid>lizhuo.asia/post/hugo/</guid>
-      <description>推送成功的解决方法 我使用了
-hugo -d docs 的命令 GitHub索引的方法是 docs 文件，我将生成的public替换为docs。
-后面的优化是，javaweb、Youtube上的hugo、和 gitpasage的深入。</description>
+      <guid>http://yiye.show/post/hugo/</guid>
+      <description>推送成功的解决方法 我使用了 hugo -d docs 的命令 GitHub索引的方法是 docs 文件，我将生成的public替换为docs。 后面的优化是，javaweb、Youtube上的hugo、和 gitpasage的深入。</description>
+    </item>
+    
+    <item>
+      <title>Golang Gin 实战（五）| 接收数组和 Map</title>
+      <link>http://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html</link>
+      <pubDate>Wed, 18 Dec 2019 21:55:00 +0800</pubDate>
+      
+      <guid>http://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html</guid>
+      <description>标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容</description>
+    </item>
+    
+    <item>
+      <title>Golang Gin 实战（三）| 路由参数</title>
+      <link>http://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>http://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/</guid>
+      <description>标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容</description>
+    </item>
+    
+    <item>
+      <title>Golang Gin 实战（三）| 路由参数</title>
+      <link>http://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>http://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</guid>
+      <description>标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容</description>
     </item>
     
   </channel>

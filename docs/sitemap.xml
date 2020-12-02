@@ -3,47 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>lizhuo.asia/post/myfirst/</loc>
+    <loc>http://yiye.show/about/</loc>
+    <lastmod>2020-12-02T00:13:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/post/myfirst/</loc>
     <lastmod>2020-11-30T21:27:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/post/</loc>
+    <loc>http://yiye.show/post/</loc>
     <lastmod>2020-11-30T21:27:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/</loc>
+    <loc>http://yiye.show/</loc>
     <lastmod>2020-11-30T21:27:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/categories/</loc>
+    <loc>http://yiye.show/categories/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/categories/golang/</loc>
+    <loc>http://yiye.show/categories/Golang/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/tags/golang/</loc>
+    <loc>http://yiye.show/tags/golang/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/post/hugo/</loc>
+    <loc>http://yiye.show/post/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/tags/</loc>
+    <loc>http://yiye.show/tags/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>lizhuo.asia/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</loc>
+    <loc>http://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html</loc>
+    <lastmod>2019-12-18T21:55:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yiye.show/search/</loc>
   </url>
   
 </urlset>
