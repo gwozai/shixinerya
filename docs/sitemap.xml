@@ -3,85 +3,130 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yiye.show/about/</loc>
+    <loc>https://shixinerya.github.io/categories/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/tags/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/win%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/tags/%E9%82%AE%E7%AE%B1/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/categories/%E9%82%AE%E7%AE%B1/</loc>
+    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/Aria2/</loc>
+    <lastmod>2020-12-04T18:55:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/Mysql/</loc>
+    <lastmod>2020-12-04T18:18:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/OneDrive/</loc>
+    <lastmod>2020-12-04T18:18:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/Minio/</loc>
+    <lastmod>2020-12-04T18:16:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/Rclone/</loc>
+    <lastmod>2020-12-03T11:53:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/about/</loc>
     <lastmod>2020-12-02T00:13:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/categories/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/post/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/tags/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/tags/%E8%8B%B1%E8%AF%AD/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/categories/%E8%8B%B1%E8%AF%AD/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</loc>
-    <lastmod>2020-11-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yiye.show/categories/Golang/</loc>
+    <loc>https://shixinerya.github.io/tags/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/tags/golang/</loc>
+    <loc>https://shixinerya.github.io/categories/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/post/hugo/</loc>
+    <loc>https://shixinerya.github.io/post/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html</loc>
+    <loc>https://shixinerya.github.io/categories/Golang/</loc>
     <lastmod>2019-12-18T21:55:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/</loc>
+    <loc>https://shixinerya.github.io/tags/golang/</loc>
+    <lastmod>2019-12-18T21:55:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/2019/12/18/golang-gin-query-parameters-array-map.html</loc>
+    <lastmod>2019-12-18T21:55:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shixinerya.github.io/post/2019-12-13-golang-gin-parameters-in-path/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</loc>
+    <loc>https://shixinerya.github.io/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.show/archives/</loc>
+    <loc>https://shixinerya.github.io/archives/</loc>
   </url>
   
   <url>
-    <loc>https://yiye.show/search/</loc>
+    <loc>https://shixinerya.github.io/search/</loc>
   </url>
   
   <url>
-    <loc>https://yiye.show/tools/</loc>
+    <loc>https://shixinerya.github.io/tools/</loc>
   </url>
   
 </urlset>

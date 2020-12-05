@@ -18,7 +18,7 @@
     <meta name="description" content="搜索页面">
         
     <meta name="author" content="yiye">
-    <meta property="og:url" content="https://yiye.show/search/">
+    <meta property="og:url" content="https://shixinerya.github.io/search/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -46,7 +46,7 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <a id="logo" href="https://yiye.show">
+                    <a id="logo" href="https://shixinerya.github.io">
                         yiye blog
                     </a>
                 
@@ -54,13 +54,13 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="https://yiye.show">首页</a>
+                    <a class="" href="https://shixinerya.github.io">首页</a>
                     
-                    <a  href="https://yiye.show/tools/" title="工具">工具</a>
+                    <a  href="https://shixinerya.github.io/tools/" title="工具">工具</a>
                     
-                    <a  href="https://yiye.show/archives/" title="归档">归档</a>
+                    <a  href="https://shixinerya.github.io/archives/" title="归档">归档</a>
                     
-                    <a  href="https://yiye.show/about/" title="关于">关于</a>
+                    <a  href="https://shixinerya.github.io/about/" title="关于">关于</a>
                     
                 </nav>
             </div>
@@ -120,7 +120,7 @@
         $("span.keyword").text(q);
         $("article.post").remove();
         $.ajax({
-            url: 'https:\/\/yiye.show\/index.xml',
+            url: 'https:\/\/shixinerya.github.io\/index.xml',
             dataType: "xml",
             success: function (data) {
                 $(data).find("item").each(function () {
@@ -143,7 +143,7 @@
 
                     <footer id="footer">
     <div>
-        &copy; 2020 <a href="https://yiye.show">yiye blog By yiye</a>
+        &copy; 2020 <a href="https://shixinerya.github.io">yiye blog By yiye</a>
         
         | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">晋ICP备2020013641号</a>
         
@@ -190,10 +190,10 @@
 
                 <div id="secondary">
     <section class="widget">
-        <form id="search" action='https://yiye.show/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='https://shixinerya.github.io/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
-      <input type="hidden" name="sitesearch" value="https://yiye.show">
+      <input type="hidden" name="sitesearch" value="https://shixinerya.github.io">
       <button type="submit" class="submit icon-search"></button>
 </form>
     </section>
@@ -203,23 +203,43 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://yiye.show/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/" title="英语学期作业">英语学期作业</a>
+        <a href="https://shixinerya.github.io/post/win%E5%91%BD%E4%BB%A4/" title="windows的一些脚本">windows的一些脚本</a>
     </li>
     
     <li>
-        <a href="https://yiye.show/post/hugo/" title="MyblogSc">MyblogSc</a>
+        <a href="https://shixinerya.github.io/post/Aria2/" title="Aria2">Aria2</a>
     </li>
     
     <li>
-        <a href="https://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html" title="Golang Gin 实战（五）| 接收数组和 Map">Golang Gin 实战（五）| 接收数组和 Map</a>
+        <a href="https://shixinerya.github.io/post/Mysql/" title="Mysql">Mysql</a>
     </li>
     
     <li>
-        <a href="https://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/" title="Golang Gin 实战（三）| 路由参数">Golang Gin 实战（三）| 路由参数</a>
+        <a href="https://shixinerya.github.io/post/OneDrive/" title="OneDrive">OneDrive</a>
     </li>
     
     <li>
-        <a href="https://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/" title="Golang Gin 实战（三）| 路由参数">Golang Gin 实战（三）| 路由参数</a>
+        <a href="https://shixinerya.github.io/post/Minio/" title="Minio">Minio</a>
+    </li>
+    
+    <li>
+        <a href="https://shixinerya.github.io/post/Rclone/" title="Rclone">Rclone</a>
+    </li>
+    
+    <li>
+        <a href="https://shixinerya.github.io/post/hugo/" title="Hugo博客">Hugo博客</a>
+    </li>
+    
+    <li>
+        <a href="https://shixinerya.github.io/2019/12/18/golang-gin-query-parameters-array-map.html" title="Golang Gin 实战（五）| 接收数组和 Map">Golang Gin 实战（五）| 接收数组和 Map</a>
+    </li>
+    
+    <li>
+        <a href="https://shixinerya.github.io/post/2019-12-13-golang-gin-parameters-in-path/" title="Golang Gin 实战（三）| 路由参数">Golang Gin 实战（三）| 路由参数</a>
+    </li>
+    
+    <li>
+        <a href="https://shixinerya.github.io/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/" title="Golang Gin 实战（三）| 路由参数">Golang Gin 实战（三）| 路由参数</a>
     </li>
     
 </ul>
@@ -246,9 +266,13 @@
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
-    <li><a href="https://yiye.show/categories/Golang/">Golang (4)</a></li>
+    <li><a href="https://shixinerya.github.io/categories/Golang/">Golang (3)</a></li>
     
-    <li><a href="https://yiye.show/categories/%E8%8B%B1%E8%AF%AD/">英语 (1)</a></li>
+    <li><a href="https://shixinerya.github.io/categories/hugo/">hugo (1)</a></li>
+    
+    <li><a href="https://shixinerya.github.io/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务 (1)</a></li>
+    
+    <li><a href="https://shixinerya.github.io/categories/%E9%82%AE%E7%AE%B1/">邮箱 (1)</a></li>
     
 </ul>
     </section>
@@ -257,9 +281,13 @@
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
-    <a href="https://yiye.show/tags/golang/">golang</a>
+    <a href="https://shixinerya.github.io/tags/golang/">golang</a>
     
-    <a href="https://yiye.show/tags/%E8%8B%B1%E8%AF%AD/">英语</a>
+    <a href="https://shixinerya.github.io/tags/hugo/">hugo</a>
+    
+    <a href="https://shixinerya.github.io/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务</a>
+    
+    <a href="https://shixinerya.github.io/tags/%E9%82%AE%E7%AE%B1/">邮箱</a>
     
 </div>
     </section>
@@ -270,11 +298,19 @@
     <ul class="widget-list">
         
         <li>
-            <a target="_blank" href="https://shixinerya.github.io/shixinerya/" title="yiye的GitHub">yiye的GitHub</a>
+            <a target="_blank" href="https://yiye.lizhuo.asia" title="github">github</a>
         </li>
         
         <li>
-            <a target="_blank" href="https://www.flysnow.org/" title="飞雪无情的博客">飞雪无情的博客</a>
+            <a target="_blank" href="https://yiye.show" title="主站地址">主站地址</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="http://oss.yiye.show" title="oss搭建的博客">oss搭建的博客</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="https://www.cnblogs.com/Kele-coke/" title="我的博客园">我的博客园</a>
         </li>
         
     </ul>
@@ -284,7 +320,7 @@
     <section class="widget">
         <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
-            <li><a href="https://yiye.show/index.xml">文章 RSS</a></li>
+            <li><a href="https://shixinerya.github.io/index.xml">文章 RSS</a></li>
         </ul>
     </section>
 </div>

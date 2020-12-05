@@ -2,93 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yiye blog</title>
-    <link>https://yiye.show/</link>
+    <link>https://shixinerya.github.io/</link>
     <description>Recent content on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2020 21:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 09:17:57 +0800</lastBuildDate>
     
-	<atom:link href="https://yiye.show/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shixinerya.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>windows的一些脚本</title>
+      <link>https://shixinerya.github.io/post/win%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 05 Dec 2020 09:17:57 +0800</pubDate>
+      
+      <guid>https://shixinerya.github.io/post/win%E5%91%BD%E4%BB%A4/</guid>
+      <description>window的一些脚本 校园网每次认证太麻烦，我用window定时脚本让校园网认证开机自启，我只用打开电脑就好了 1 2 3 4 5 6 ::查看可用网络 netsh wlan show networks ::断开WiFi连接 netsh wlan disconnect ::连接WiFi ZBXS-GiWiFi netsh wlan connect ssid=ZBXS-GiWiFi name=ZBXS-GiWiFi 可以使用命令行进行邮件推送 使用软件blat 蓝奏云下载 官方网址happy mailing : Blat online 1</description>
+    </item>
+    
+    <item>
+      <title>Aria2</title>
+      <link>https://shixinerya.github.io/post/Aria2/</link>
+      <pubDate>Fri, 04 Dec 2020 18:55:34 +0800</pubDate>
+      
+      <guid>https://shixinerya.github.io/post/Aria2/</guid>
+      <description>aria2 aria2的安装 一键脚本：// 因为网络原因，如果没有安装好的话多试几次， 1 wget -N git.io/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh &amp;amp;&amp;amp; ./aria2.sh 选择 1 进行安装 配置自动上传脚本 Aria2 一键安装管理脚本 增强版 整合了 Aria2 完美配置 ，安装后会附带一些附加功能脚本功能脚本，RCLONE 自动上传脚本就是其中之一。由于默认不启用，所以需要手动启用。 TIPS: 本</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://shixinerya.github.io/post/Mysql/</link>
+      <pubDate>Fri, 04 Dec 2020 18:18:35 +0800</pubDate>
+      
+      <guid>https://shixinerya.github.io/post/Mysql/</guid>
+      <description>可以当一个库</description>
+    </item>
+    
+    <item>
+      <title>OneDrive</title>
+      <link>https://shixinerya.github.io/post/OneDrive/</link>
+      <pubDate>Fri, 04 Dec 2020 18:18:27 +0800</pubDate>
+      
+      <guid>https://shixinerya.github.io/post/OneDrive/</guid>
+      <description>获得的方法 教育邮箱可以申请5T 某宝购买 某些申请教程 2020最新自助免费申请Office365教育版，免费5TOneDrive云盘详细图文教程-风君子博客 (fengjunzi.com) xkx - Jaz Mail | Temp Mail | 临时邮箱~ 薅羊毛大学子号自助开通 (qiantigers.workers.dev)</description>
+    </item>
+    
+    <item>
+      <title>Minio</title>
+      <link>https://shixinerya.github.io/post/Minio/</link>
+      <pubDate>Fri, 04 Dec 2020 18:16:31 +0800</pubDate>
+      
+      <guid>https://shixinerya.github.io/post/Minio/</guid>
+      <description>Minio 同阿里云的oss，七牛云的对象存储 用docker安装minio 1 2 3 4 5 6 7 docker run -p 9000:9000 --name minio \ -d --restart=always \ -e &amp;#34;MINIO_ACCESS_KEY=#自己的账号&amp;#34; \ -e &amp;#34;MINIO_SECRET_KEY=#自己的密码&amp;#34; \ -v /home/data:/data \ -v /home/config:/root/.minio \ minio/minio server /data minio rclone的 conf</description>
+    </item>
+    
+    <item>
+      <title>Rclone</title>
+      <link>https://shixinerya.github.io/post/Rclone/</link>
+      <pubDate>Thu, 03 Dec 2020 11:53:25 +0800</pubDate>
+      
+      <guid>https://shixinerya.github.io/post/Rclone/</guid>
+      <description>Rclone 的使用 网盘同步工具Rclone的使用,rclone是一个非常强大的网盘同步工具。可以用命令行进行操作。 详细使用 操作命令 rclone 命令的语法格式： Syntax: [options] subcommand &amp;lt;parameters&amp;gt; &amp;lt;parameters&amp;hellip;&amp;gt; 常用的 rclone 命令有： rclone config - 以控制会话的形式添加rclone的配置，配置保存在.rclone.conf文件中。 rclone copy - 将文件从源复制到目的地</description>
+    </item>
+    
+    <item>
       <title>关于我</title>
-      <link>https://yiye.show/about/</link>
+      <link>https://shixinerya.github.io/about/</link>
       <pubDate>Wed, 02 Dec 2020 00:13:27 +0000</pubDate>
       
-      <guid>https://yiye.show/about/</guid>
+      <guid>https://shixinerya.github.io/about/</guid>
       <description>《Go 实战笔记》系列作者，《Golang Gin 实战》系列作者，《Android Gradle权威指南》作者，现负责技术管理。 Android Gradle权威指南 公众号，扫码关注</description>
     </item>
     
     <item>
-      <title>英语学期作业</title>
-      <link>https://yiye.show/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</link>
-      <pubDate>Fri, 13 Nov 2020 21:00:00 +0800</pubDate>
-      
-      <guid>https://yiye.show/post/%E5%AD%A6%E6%A0%A1%E4%BD%9C%E4%B8%9A/</guid>
-      <description>英语作业-作文 Write an essay of no less than 200 words on one of the following topics: A most influential movie director or movie star A man/woman who changed the world A great sportsman / sportswoman Details might be organized in chronological (时间顺序) order： when he/she was born Jackie Chan Kong-sang，1954年4月7日 how and where he/she grew up 原籍安徽芜湖 what educational background he/she had 成龙曾接受幼稚园和小学一年级（入读在1948年至1960年代位于香港岛坚道的南</description>
-    </item>
-    
-    <item>
-      <title>MyblogSc</title>
-      <link>https://yiye.show/post/hugo/</link>
+      <title>Hugo博客</title>
+      <link>https://shixinerya.github.io/post/hugo/</link>
       <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
       
-      <guid>https://yiye.show/post/hugo/</guid>
-      <description>推送成功的解决方法 我使用了的命令 hugo -d docs</description>
+      <guid>https://shixinerya.github.io/post/hugo/</guid>
+      <description>推送成功的解决方法 把生成的public文件换成docs 1 hugo -d docs 在GitHub的目录下引用docs 预备条件 服务器：centos/github(gitee)/oss 给域名添加证书 备案的域名 这次搭建的站是我有史以来最成功的，早在大一上的时候就想要自己搭建博客了。 写博客的培训教程培训，我</description>
     </item>
     
     <item>
       <title>Golang Gin 实战（五）| 接收数组和 Map</title>
-      <link>https://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html</link>
+      <link>https://shixinerya.github.io/2019/12/18/golang-gin-query-parameters-array-map.html</link>
       <pubDate>Wed, 18 Dec 2019 21:55:00 +0800</pubDate>
       
-      <guid>https://yiye.show/2019/12/18/golang-gin-query-parameters-array-map.html</guid>
+      <guid>https://shixinerya.github.io/2019/12/18/golang-gin-query-parameters-array-map.html</guid>
       <description>标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容</description>
     </item>
     
     <item>
       <title>Golang Gin 实战（三）| 路由参数</title>
-      <link>https://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/</link>
+      <link>https://shixinerya.github.io/post/2019-12-13-golang-gin-parameters-in-path/</link>
       <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
       
-      <guid>https://yiye.show/post/2019-12-13-golang-gin-parameters-in-path/</guid>
+      <guid>https://shixinerya.github.io/post/2019-12-13-golang-gin-parameters-in-path/</guid>
       <description>标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容</description>
     </item>
     
     <item>
       <title>Golang Gin 实战（三）| 路由参数</title>
-      <link>https://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</link>
+      <link>https://shixinerya.github.io/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</link>
       <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
       
-      <guid>https://yiye.show/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</guid>
+      <guid>https://shixinerya.github.io/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</guid>
       <description>标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容 标题 段落内容</description>
     </item>
     
     <item>
       <title>归档</title>
-      <link>https://yiye.show/archives/</link>
+      <link>https://shixinerya.github.io/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yiye.show/archives/</guid>
+      <guid>https://shixinerya.github.io/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>https://yiye.show/search/</link>
+      <link>https://shixinerya.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yiye.show/search/</guid>
+      <guid>https://shixinerya.github.io/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>https://yiye.show/tools/</link>
+      <link>https://shixinerya.github.io/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yiye.show/tools/</guid>
+      <guid>https://shixinerya.github.io/tools/</guid>
       <description></description>
     </item>
     
