@@ -3,130 +3,185 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shixinerya.github.io/categories/</loc>
+    <loc>https://yiye.show/post/12_11/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/categories/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/tags/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/</loc>
+    <lastmod>2020-12-11T09:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/tags/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/</loc>
+    <lastmod>2020-12-07T12:36:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/categories/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/</loc>
+    <lastmod>2020-12-07T12:36:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2020-12-07T12:36:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/tags/%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2020-12-07T12:36:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/categories/%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2020-12-07T12:36:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2020-12-07T12:35:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/win%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2020-12-05T09:17:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/</loc>
+    <loc>https://yiye.show/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
     <lastmod>2020-12-05T09:17:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/tags/</loc>
+    <loc>https://yiye.show/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
     <lastmod>2020-12-05T09:17:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/win%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://yiye.show/tags/%E9%82%AE%E7%AE%B1/</loc>
     <lastmod>2020-12-05T09:17:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/</loc>
+    <loc>https://yiye.show/categories/%E9%82%AE%E7%AE%B1/</loc>
     <lastmod>2020-12-05T09:17:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
-    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
-    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/tags/%E9%82%AE%E7%AE%B1/</loc>
-    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/categories/%E9%82%AE%E7%AE%B1/</loc>
-    <lastmod>2020-12-05T09:17:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/post/Aria2/</loc>
+    <loc>https://yiye.show/post/Aria2/</loc>
     <lastmod>2020-12-04T18:55:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/Mysql/</loc>
+    <loc>https://yiye.show/post/Mysql/</loc>
     <lastmod>2020-12-04T18:18:35+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/OneDrive/</loc>
+    <loc>https://yiye.show/post/OneDrive/</loc>
     <lastmod>2020-12-04T18:18:27+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/Minio/</loc>
+    <loc>https://yiye.show/post/Minio/</loc>
     <lastmod>2020-12-04T18:16:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/Rclone/</loc>
+    <loc>https://yiye.show/post/Rclone/</loc>
     <lastmod>2020-12-03T11:53:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/about/</loc>
+    <loc>https://yiye.show/about/</loc>
     <lastmod>2020-12-02T00:13:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/tags/hugo/</loc>
+    <loc>https://yiye.show/tags/git/</loc>
+    <lastmod>2020-11-29T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/categories/git/</loc>
+    <lastmod>2020-11-29T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/git&#43;github/</loc>
+    <lastmod>2020-11-29T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/tags/idea%E6%BF%80%E6%B4%BB/</loc>
+    <lastmod>2020-11-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/categories/idea%E6%BF%80%E6%B4%BB/</loc>
+    <lastmod>2020-11-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</loc>
+    <lastmod>2020-11-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.show/tags/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/categories/hugo/</loc>
+    <loc>https://yiye.show/categories/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/post/hugo/</loc>
+    <loc>https://yiye.show/post/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/categories/Golang/</loc>
-    <lastmod>2019-12-18T21:55:00+08:00</lastmod>
+    <loc>https://yiye.show/tools/</loc>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/tags/golang/</loc>
-    <lastmod>2019-12-18T21:55:00+08:00</lastmod>
+    <loc>https://yiye.show/archives/</loc>
   </url>
   
   <url>
-    <loc>https://shixinerya.github.io/2019/12/18/golang-gin-query-parameters-array-map.html</loc>
-    <lastmod>2019-12-18T21:55:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/post/2019-12-13-golang-gin-parameters-in-path/</loc>
-    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/post/2019-12-15-golang-gin-query-parameters-source-code-analysis/</loc>
-    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/search/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shixinerya.github.io/tools/</loc>
+    <loc>https://yiye.show/search/</loc>
   </url>
   
 </urlset>
