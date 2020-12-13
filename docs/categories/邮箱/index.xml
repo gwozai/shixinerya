@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>邮箱 on yiye blog</title>
-    <link>http://yiye.lizhuo.asia/categories/%E9%82%AE%E7%AE%B1/</link>
+    <link>https://yiye.lizhuo.asia/categories/%E9%82%AE%E7%AE%B1/</link>
     <description>Recent content in 邮箱 on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 05 Dec 2020 09:17:57 +0800</lastBuildDate>
     
-	<atom:link href="http://yiye.lizhuo.asia/categories/%E9%82%AE%E7%AE%B1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yiye.lizhuo.asia/categories/%E9%82%AE%E7%AE%B1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>windows的一些脚本</title>
-      <link>http://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/</link>
+      <link>https://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Sat, 05 Dec 2020 09:17:57 +0800</pubDate>
       
-      <guid>http://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/</guid>
       <description>window的一些脚本 校园网开机认证太麻烦，我用脚本使认证开机自启。 1 2 3 4 5 6 ::查看可用网络 netsh wlan show networks ::断开WiFi连接 netsh wlan disconnect ::连接WiFi ZBXS-GiWiFi netsh wlan connect ssid=ZBXS-GiWiFi name=ZBXS-GiWiFi 可以使用命令行进行邮件推送 使用软件blat 蓝奏云下载 官方网址happy mailing : Blat online 1 2 3 4 :: 进入到blat的目录下 \blat\blat3222\full blat -install smtp.qq.com xxxxxxx@qq.com 3</description>
     </item>
     
