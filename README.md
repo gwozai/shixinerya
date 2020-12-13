@@ -1,6 +1,5 @@
-# ossblog
+﻿# shixinerya
 我的博客
+作为备用站
 
-oss连接的是北京不是杭州
 
-beijing
