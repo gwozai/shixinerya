@@ -64,7 +64,7 @@ shutdown
 - -t 时间 
 
   ```powershell
-  shutdown -t 1000
+  shutdown -s -t 180  //180是180秒
   ```
 
   

@@ -1,99 +1,99 @@
-baseURL = "http://yiye.lizhuo.asia/"
+ï»¿baseURL = "https://yiye.lizhuo.asia/"
 languageCode = "zh-CN"
 title = "yiye blog"
 theme = "maupassant"
 googleAnalytics = ""  # UA-XXXXXXXX-X
 
-## ±£³Ö·ÖÀàµÄÔ­Ê¼Ãû×Ö£¨false»á×ö×ªĞ¡Ğ´´¦Àí£©
+## ä¿æŒåˆ†ç±»çš„åŸå§‹åå­—ï¼ˆfalseä¼šåšè½¬å°å†™å¤„ç†ï¼‰
 preserveTaxonomyNames = true
-## ÊÇ·ñ½ûÖ¹URL Path×ªĞ¡Ğ´
+## æ˜¯å¦ç¦æ­¢URL Pathè½¬å°å†™
 disablePathToLower = true
 
 hasCJKLanguage = true
 summaryLength = 140
 
-## disqusShortname = "yourdiscussshortname"  ## ÊÇ·ñ¿ªÆôdisqusÆÀÂÛ£¬²»ÒªºÍutterancÍ¬Ê±¿ªÆô
+## disqusShortname = "yourdiscussshortname"  ## æ˜¯å¦å¼€å¯disqusè¯„è®ºï¼Œä¸è¦å’ŒutterancåŒæ—¶å¼€å¯
 
 [author]
   name = "yiye"
 
 [params]
   author = "yiye"
-  subtitle = "×¨×¢ÓÚAndroid¡¢Java"
-  keywords = "java,android,²©¿Í,ÏîÄ¿¹ÜÀí,python,¹«ÖÚºÅ,Ğ¡³ÌĞò"
-  description = "×öÒ»¼şÊÂ×îºÃµÄÊ±»úÊÇÊ±»úÊÇÊ®ÄêÇ°£¬Æä´Î¾ÍÊÇÏÖÔÚ"
-  busuanzi = true #ÆôÓÃ²»Ëã×ÓÍøÒ³Í³¼Æ
+  subtitle = "ä¸“æ³¨äºAndroidã€Java"
+  keywords = "java,android,åšå®¢,é¡¹ç›®ç®¡ç†,python,å…¬ä¼—å·,å°ç¨‹åº"
+  description = "åšä¸€ä»¶äº‹æœ€å¥½çš„æ—¶æœºæ˜¯æ—¶æœºæ˜¯åå¹´å‰ï¼Œå…¶æ¬¡å°±æ˜¯ç°åœ¨"
+  busuanzi = true #å¯ç”¨ä¸ç®—å­ç½‘é¡µç»Ÿè®¡
   googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
-  localSearch = true # ÆôÓÃ±¾µØËÑË÷
-  beian = "½úICP±¸2020013641ºÅ" # Ìí¼Ó±¸°¸ĞÅÏ¢
-  fancybox = true # Í¼Æ¬µã»÷·Å´ó
+  localSearch = true # å¯ç”¨æœ¬åœ°æœç´¢
+  beian = "æ™‹ICPå¤‡2020013641å·" # æ·»åŠ å¤‡æ¡ˆä¿¡æ¯
+  fancybox = true # å›¾ç‰‡ç‚¹å‡»æ”¾å¤§
 
-  # ÕâÀïÎÒ´æ·ÅÔÚÁËÖ÷ÌâµÄstaticÎÄ¼ş¼ĞÀï£¬¸ùÄ¿Â¼µÄËÆºõÒ²¿ÉÒÔ
+  # è¿™é‡Œæˆ‘å­˜æ”¾åœ¨äº†ä¸»é¢˜çš„staticæ–‡ä»¶å¤¹é‡Œï¼Œæ ¹ç›®å½•çš„ä¼¼ä¹ä¹Ÿå¯ä»¥
   customCSS = ['douban.css', 'other.css']
   # if ['custom.css'], load '/static/css/custom.css' file
   customJS = ['douban.js']
   # if ['custom.js'], load '/static/js/custom.js' file
 
-  # È«¾Ö¿ª¹Ø£¬ÄãÒ²¿ÉÒÔÔÚÃ¿Ò»ÆªÄÚÈİµÄ front matter ÖĞÕë¶Ôµ¥ÆªÄÚÈİ¹Ø±Õ»ò¿ªÆôÄ³Ğ©¹¦ÄÜ
-  toc = false  # ÊÇ·ñ¿ªÆôÄ¿Â¼
+  # å…¨å±€å¼€å…³ï¼Œä½ ä¹Ÿå¯ä»¥åœ¨æ¯ä¸€ç¯‡å†…å®¹çš„ front matter ä¸­é’ˆå¯¹å•ç¯‡å†…å®¹å…³é—­æˆ–å¼€å¯æŸäº›åŠŸèƒ½
+  toc = false  # æ˜¯å¦å¼€å¯ç›®å½•
 
-## ÓÑÇéÁ´½Ó£¬¿ÉÒÔ¶à¸ö
+## å‹æƒ…é“¾æ¥ï¼Œå¯ä»¥å¤šä¸ª
 
 [[params.links]]
-  title = "ÎÒÕıÔÚ¶ÁµÄÊé"
-  name = "ÎÒÕıÔÚ¶ÁµÄÊé"
+  title = "æˆ‘æ­£åœ¨è¯»çš„ä¹¦"
+  name = "æˆ‘æ­£åœ¨è¯»çš„ä¹¦"
   url = "https://shixinerya.github.io/mybook/"
   
 [[params.links]]
-  title = "ÍøÅÌ×ÊÔ´·ÖÏí"
-  name = "ÍøÅÌ×ÊÔ´·ÖÏí"
-  url = "http://onedrive.yiye.show"  
+  title = "ç½‘ç›˜èµ„æºåˆ†äº«"
+  name = "ç½‘ç›˜èµ„æºåˆ†äº«"
+  url = "http://zfile.yiye.show"  
 
   
-## ²à±ßÀ¸¹ã¸æÎ»
+## ä¾§è¾¹æ å¹¿å‘Šä½
 [[params.ads]]
-  title = "¡¾2020Ë«12¡¿ALL IN CLoud µÍÖÁ1ÕÛ"
+  title = "ã€2020åŒ12ã€‘ALL IN CLoud ä½è‡³1æŠ˜"
   url = "https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=q8qrpnxv"
   img = "https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"
 
-## ÅäÖÃ utterancÆÀÂÛ,½Ì³Ì²Î¿¼ https://utteranc.es/
+## é…ç½® utterancè¯„è®º,æ•™ç¨‹å‚è€ƒ https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "" ##»»³É×Ô¼ºµÄ
+  repo = "" ##æ¢æˆè‡ªå·±çš„
   issueTerm = "pathname"
   theme = "github-light"
 
-## ¿ªÆô°æÈ¨ÉùÃ÷£¬Ğ­ÒéÃû×ÖºÍÁ´½Ó¶¼¿ÉÒÔ»»
+## å¼€å¯ç‰ˆæƒå£°æ˜ï¼Œåè®®åå­—å’Œé“¾æ¥éƒ½å¯ä»¥æ¢
  [params.cc]
-    name = "ÖªÊ¶¹²ÏíÊğÃû-·ÇÉÌÒµĞÔÊ¹ÓÃ-½ûÖ¹ÑİÒï 4.0 ¹ú¼ÊĞí¿ÉĞ­Òé"
+    name = "çŸ¥è¯†å…±äº«ç½²å-éå•†ä¸šæ€§ä½¿ç”¨-ç¦æ­¢æ¼”ç» 4.0 å›½é™…è®¸å¯åè®®"
     link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 
 
-## ÅäÖÃ´úÂë¸ßÁÁ
+## é…ç½®ä»£ç é«˜äº®
 [markup]
   [markup.highlight]
     lineNos = true
     style = "github"
 
-## ÅäÖÃÍøÕ¾²Ëµ¥
+## é…ç½®ç½‘ç«™èœå•
 
 [menu]
 
   [[menu.main]]
     identifier = "tools"
-    name = "¹¤¾ß"
+    name = "å·¥å…·"
     url = "/tools/"
     weight = 2
 
   [[menu.main]]
     identifier = "archives"
-    name = "¹éµµ"
+    name = "å½’æ¡£"
     url = "/archives/"
     weight = 3
 
   [[menu.main]]
     identifier = "about"
-    name = "¹ØÓÚ"
+    name = "å…³äº"
     url = "/about/"
     weight = 4
 	

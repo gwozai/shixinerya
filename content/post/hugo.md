@@ -19,6 +19,7 @@ hugo的下载：主题
 
 
 
+推送：流行弹窗（像steam的弹窗一样）
 
 
 
@@ -30,18 +31,26 @@ hugo的下载：主题
 
 
 
+b2aaa3c543e
 
 
 
 
 
+docker run -d --name=zfile --restart=always \    -p 8088:8080 \    -v /root/zfile/conf:/root/.zfile \    -v /root/zfile/db:/root/.zfile-new/db \    -v /root/zfile/data:/root/zfile/data \    stilleshan/zfile
 
 
 
+```shell
+docker run -d --name=zfile --restart=always \
+    -p 8188:8080 \
+    -v /root/zfile/conf:/root/.zfile \
+    -v /root/zfile/db:/root/.zfile-new/db \
+    -v /root/zfile/data:/root/zfile/data \
+    stilleshan/zfile
+```
 
-
-
-
+http://39.103.135.32:/8088/#/install
 
 
 
