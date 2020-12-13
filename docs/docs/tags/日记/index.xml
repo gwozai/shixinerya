@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日记 on yiye blog</title>
+    <link>https://yiye.show/tags/%E6%97%A5%E8%AE%B0/</link>
+    <description>Recent content in 日记 on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 11 Dec 2020 14:40:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://yiye.show/tags/%E6%97%A5%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>12_11</title>
+      <link>https://yiye.show/post/12_11/</link>
+      <pubDate>Fri, 11 Dec 2020 14:40:15 +0800</pubDate>
+      
+      <guid>https://yiye.show/post/12_11/</guid>
+      <description>博客搭建选择hugo弃用worldpress worldpress东西太多</description>
+    </item>
+    
+  </channel>
+</rss>

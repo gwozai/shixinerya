@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on yiye blog</title>
+    <link>https://yiye.show/tags/hugo/</link>
+    <description>Recent content in hugo on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 05 Oct 2020 19:17:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://yiye.show/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo博客</title>
+      <link>https://yiye.show/post/hugo/</link>
+      <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
+      
+      <guid>https://yiye.show/post/hugo/</guid>
+      <description>注册GitHub账号 下载软件 git gitdesk hugo的下载：主题 hexo,t 其他可以搭建博客的方法 推送成功的解决方法 把生成的public文件换成docs 1 hugo -d docs 在GitHub的目录下引用docs 预备条件 服务器：centos/github(gitee)/oss 给域名添加证书 备案的域名 这次搭建的站是我有史</description>
+    </item>
+    
+  </channel>
+</rss>
