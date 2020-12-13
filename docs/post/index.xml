@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on yiye blog</title>
+    <link>http://yiye.lizhuo.asia/post/</link>
+    <description>Recent content in Posts on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 11 Dec 2020 14:40:15 +0800</lastBuildDate>
+    
+	<atom:link href="http://yiye.lizhuo.asia/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>12_11</title>
+      <link>http://yiye.lizhuo.asia/post/12_11/</link>
+      <pubDate>Fri, 11 Dec 2020 14:40:15 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/12_11/</guid>
+      <description>博客搭建选择hugo弃用worldpress worldpress东西太多</description>
+    </item>
+    
+    <item>
+      <title>四级作文</title>
+      <link>http://yiye.lizhuo.asia/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/</link>
+      <pubDate>Fri, 11 Dec 2020 09:56:29 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/</guid>
+      <description>四级写作范文</description>
+    </item>
+    
+    <item>
+      <title>谷粒商城</title>
+      <link>http://yiye.lizhuo.asia/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Mon, 07 Dec 2020 12:36:58 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/</guid>
+      <description>谷粒商城项目日志 摘要：项目整理 12/3 在docker中安装mysql 我直接用服务器安装docker，省去了vegrent搭建的虚拟环境 docker容器设置自动启动 mysql的安装 1 &amp;gt; docker run -p 3306:3306 --name mysql -v /mydata/mysql/log:/var/log/mysql -v /mydata/mysql/data:/var/lib/mysql -v /mydata/mysql/conf:/etc/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7 1 where is mysql # 可以查看mysql的安装位置 redis的安装 1 2 3 4 5 6 mkdir -p /mydata/redis/conf</description>
+    </item>
+    
+    <item>
+      <title>好用的软件</title>
+      <link>http://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Mon, 07 Dec 2020 12:35:58 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
+      <description>好用的win10软件推荐 snipast idea zoomit xmind ediary bandziip potplayer rclone notepad google freedownload 印象笔记 ediary Everything docker vscode 超星云盘 百度网盘 天翼云盘 向日葵 sqlyog redisdesk xshell-xftp7 edge 有道词典 OneDrive typora stunnel+blat github desktop firefox</description>
+    </item>
+    
+    <item>
+      <title>windows的一些脚本</title>
+      <link>http://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 05 Dec 2020 09:17:57 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/</guid>
+      <description>window的一些脚本 校园网开机认证太麻烦，我用脚本使认证开机自启。 1 2 3 4 5 6 ::查看可用网络 netsh wlan show networks ::断开WiFi连接 netsh wlan disconnect ::连接WiFi ZBXS-GiWiFi netsh wlan connect ssid=ZBXS-GiWiFi name=ZBXS-GiWiFi 可以使用命令行进行邮件推送 使用软件blat 蓝奏云下载 官方网址happy mailing : Blat online 1 2 3 4 :: 进入到blat的目录下 \blat\blat3222\full blat -install smtp.qq.com xxxxxxx@qq.com 3</description>
+    </item>
+    
+    <item>
+      <title>Aria2</title>
+      <link>http://yiye.lizhuo.asia/post/Aria2/</link>
+      <pubDate>Fri, 04 Dec 2020 18:55:34 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/Aria2/</guid>
+      <description>aria2 环境：centos7 aria2的安装 一键脚本：// 因为网络原因，如果没有安装好的话多试几次， 1 wget -N git.io/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh &amp;amp;&amp;amp; ./aria2.sh 选择 1 进行安装 配置自动上传脚本 Aria2 一键安装管理脚本 增强版 整合了 Aria2 完美配置 ，安装后会附带一些附加功能脚本功能脚本，RCLONE 自动上传脚本就是其中之一。由于默认不启用，所</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>http://yiye.lizhuo.asia/post/Mysql/</link>
+      <pubDate>Fri, 04 Dec 2020 18:18:35 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/Mysql/</guid>
+      <description>可以当一个库</description>
+    </item>
+    
+    <item>
+      <title>OneDrive</title>
+      <link>http://yiye.lizhuo.asia/post/OneDrive/</link>
+      <pubDate>Fri, 04 Dec 2020 18:18:27 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/OneDrive/</guid>
+      <description>获得的方法 教育邮箱可以申请5T 某宝购买 某些申请教程 2020最新自助免费申请Office365教育版，免费5TOneDrive云盘详细图文教程-风君子博客 (fengjunzi.com) xkx - Jaz Mail | Temp Mail | 临时邮箱~ 薅羊毛大学子号自助开通 (qiantigers.workers.dev)</description>
+    </item>
+    
+    <item>
+      <title>Minio</title>
+      <link>http://yiye.lizhuo.asia/post/Minio/</link>
+      <pubDate>Fri, 04 Dec 2020 18:16:31 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/Minio/</guid>
+      <description>Minio 同阿里云的oss，七牛云的对象存储 用docker安装minio 1 2 3 4 5 6 7 docker run -p 9000:9000 --name minio \ -d --restart=always \ -e &amp;#34;MINIO_ACCESS_KEY=#自己的账号&amp;#34; \ -e &amp;#34;MINIO_SECRET_KEY=#自己的密码&amp;#34; \ -v /home/data:/data \ -v /home/config:/root/.minio \ minio/minio server /data minio rclone的 conf</description>
+    </item>
+    
+    <item>
+      <title>Rclone</title>
+      <link>http://yiye.lizhuo.asia/post/Rclone/</link>
+      <pubDate>Thu, 03 Dec 2020 11:53:25 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/Rclone/</guid>
+      <description>Rclone 的一些命令 网盘同步工具Rclone的使用,rclone是一个非常强大的网盘同步工具。可以用命令行进行操作。 详细使用 操作命令 rclone 命令的语法格式： Syntax: [options] subcommand &amp;lt;parameters&amp;gt; &amp;lt;parameters&amp;hellip;&amp;gt; 常用的 rclone 命令有： rclone config - 以控制会话的形式添加rclone的配置，配置保存在.rclone.conf文件中。 rclone copy - 将文件从源复制到目</description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://yiye.lizhuo.asia/post/git&#43;github/</link>
+      <pubDate>Sun, 29 Nov 2020 19:17:42 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/git&#43;github/</guid>
+      <description>git的学习 git可以上传GitHub仓库 菜鸟教程：Git 教程 | 菜鸟教程 (runoob.com) bilibili视频教程：黑马教程 尚硅谷教程</description>
+    </item>
+    
+    <item>
+      <title>idea激活</title>
+      <link>http://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</link>
+      <pubDate>Thu, 05 Nov 2020 19:17:42 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</guid>
+      <description>IDEA2020.1.4激活码,IDEA 注册码,IDEA2020激活码 蓝奏云 要用到的插件： https://myfileforever.lanzous.com/b01tqyapg 密码:gpvt 蓝奏云二维码： 下面是正文 2020-07-23 09:51:12 分类：文章 阅读(1K+) 评论(0) 2020.1.4 IDEA 正版激活，IntelliJ IDEA 全家桶 注册码一、温馨提示**1、**本教程适用于 IntelliJ IDEA 2020.1.4 以下所有版本idea202</description>
+    </item>
+    
+    <item>
+      <title>Hugo博客</title>
+      <link>http://yiye.lizhuo.asia/post/hugo/</link>
+      <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
+      
+      <guid>http://yiye.lizhuo.asia/post/hugo/</guid>
+      <description>注册GitHub账号 下载软件 git gitdesk hugo的下载：主题 推送：流行弹窗（像steam的弹窗一样） b2aaa3c543e docker run -d &amp;ndash;name=zfile &amp;ndash;restart=always \ -p 8088:8080 \ -v /root/zfile/conf:/root/.zfile \ -v /root/zfile/db:/root/.zfile-new/db \ -v /root/zfile/data:/root/zfile/data \ stilleshan/zfile 1 2 3 4 5 6 docker run -d --name=zfile --restart=always \ -p 8188:8080 \ -v /root/zfile/conf:/root/.zfile \ -v /root/zfile/db:/root/.zfile-new/db \ -v /root/zfile/data:/root/zfile/data \ stilleshan/zfile http://39.103.135.32:/8088/#/install hexo,t 其他可以搭建博客的方法 推送成功的解决方法 把生成的public文件换成docs 1 hugo -d docs 在GitH</description>
+    </item>
+    
+  </channel>
+</rss>
