@@ -116,7 +116,16 @@
       <pubDate>Sun, 29 Nov 2020 19:17:42 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/post/git&#43;github/</guid>
-      <description>git的学习 git可以上传GitHub仓库 菜鸟教程：Git 教程 | 菜鸟教程 (runoob.com) bilibili视频教程：黑马教程 尚硅谷教程</description>
+      <description>git的学习 git可以上传GitHub仓库 菜鸟教程：Git 教程 | 菜鸟教程 (runoob.com) bilibili视频教程：黑马教程 尚硅谷教程 git 一般的工作流程 克隆git资源作为工作目录 在克隆的资源上添加或修改文件 如果其他人修改了，你可以更新资源 在提交前查看修改 提交修改 在修改完成后，如果发现错误，可以撤回</description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://yiye.lizhuo.asia/post/jenkins/</link>
+      <pubDate>Sat, 28 Nov 2020 14:46:07 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/jenkins/</guid>
+      <description>jenkins学习 jenkins在windows上的安装 管理员的身份启动CMD 启动命令： 1 net start jenkins 关闭命令： 1 net start jenkins</description>
     </item>
     
     <item>
