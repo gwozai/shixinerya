@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yiye.lizhuo.asia/post/12_11/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yiye.lizhuo.asia/categories/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yiye.lizhuo.asia/post/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yiye.lizhuo.asia/tags/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yiye.lizhuo.asia/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.lizhuo.asia/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+    <loc>https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/</loc>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yiye.lizhuo.asia/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2020-12-11T14:40:15+08:00</lastmod>
+    <loc>https://yiye.lizhuo.asia/tags/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/</loc>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/categories/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/</loc>
+    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
   </url>
   
   <url>
@@ -163,6 +163,21 @@
   </url>
   
   <url>
+    <loc>https://yiye.lizhuo.asia/tags/github/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/categories/github/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/post/github%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yiye.lizhuo.asia/tags/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
   </url>
@@ -175,6 +190,10 @@
   <url>
     <loc>https://yiye.lizhuo.asia/post/hugo/</loc>
     <lastmod>2020-10-05T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/post/12_11/</loc>
   </url>
   
   <url>

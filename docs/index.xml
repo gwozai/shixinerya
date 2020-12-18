@@ -6,18 +6,18 @@
     <description>Recent content on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 11 Dec 2020 14:40:15 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 19:17:42 +0800</lastBuildDate>
     
 	<atom:link href="https://yiye.lizhuo.asia/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>12_11</title>
-      <link>https://yiye.lizhuo.asia/post/12_11/</link>
-      <pubDate>Fri, 11 Dec 2020 14:40:15 +0800</pubDate>
+      <title>数据结构答辩准备</title>
+      <link>https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/</link>
+      <pubDate>Mon, 14 Dec 2020 19:17:42 +0800</pubDate>
       
-      <guid>https://yiye.lizhuo.asia/post/12_11/</guid>
-      <description>博客搭建选择hugo弃用worldpress worldpress东西太多</description>
+      <guid>https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/</guid>
+      <description>数据结构答辩 摘要： 题目: 学生通讯录管理系统 设计内容： 建立某班学生的通讯录，要求用链表存储。 具体功能包括： 1）可以实现插入一个同学的通讯录记录； 2）能够删除某位同学的通讯录； 3）对通讯录打印输出。 设计要求： （1）定义通讯录内容的结构体； （2）建立存储通讯录的链表结构并初始化； （3）</description>
     </item>
     
     <item>
@@ -138,12 +138,30 @@
     </item>
     
     <item>
+      <title>github搜索技巧</title>
+      <link>https://yiye.lizhuo.asia/post/github%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/github%E6%8A%80%E5%B7%A7/</guid>
+      <description>github使用技巧</description>
+    </item>
+    
+    <item>
       <title>Hugo博客</title>
       <link>https://yiye.lizhuo.asia/post/hugo/</link>
       <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/post/hugo/</guid>
       <description>注册GitHub账号 下载软件 git gitdesk hugo的下载：主题 推送：流行弹窗（像steam的弹窗一样） b2aaa3c543e docker run -d &amp;ndash;name=zfile &amp;ndash;restart=always \ -p 8088:8080 \ -v /root/zfile/conf:/root/.zfile \ -v /root/zfile/db:/root/.zfile-new/db \ -v /root/zfile/data:/root/zfile/data \ stilleshan/zfile 1 2 3 4 5 6 docker run -d --name=zfile --restart=always \ -p 8188:8080 \ -v /root/zfile/conf:/root/.zfile \ -v /root/zfile/db:/root/.zfile-new/db \ -v /root/zfile/data:/root/zfile/data \ stilleshan/zfile http://39.103.135.32:/8088/#/install hexo,t 其他可以搭建博客的方法 推送成功的解决方法 把生成的public文件换成docs 1 hugo -d docs 在GitH</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yiye.lizhuo.asia/post/12_11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/12_11/</guid>
+      <description>博客搭建选择hugo弃用worldpress worldpress东西太多</description>
     </item>
     
     <item>
