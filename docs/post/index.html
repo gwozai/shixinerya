@@ -81,6 +81,31 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://yiye.lizhuo.asia/post/mongodb/" title="MongoDB">MongoDB</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年12月26日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/MongoDB'>MongoDB</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            MongoDB 安装 docker安装 1 docker run -p 27017:27017 -v /data/mongo:/data/db --name mongodb -d mongo --auth 1 2 3 4 创建用户 db.createUser({ user:&#39;admin&#39;,pwd:&#39;123456&#39;,roles:[ { role:&#39;userAdminAnyDatabase&#39;, db: &#39;admin&#39;}]}); 登录 db.auth(&#39;admin&#39;, &#39;123456&#39;) 远端登录 在 mongodb 的容器当中 更新源 apt-get update 安装 vim apt-get install vim 修改 mongo 配置文件 vim /etc/mongod.conf.orig 1 2 3 4 1.确保注释掉`# bindIp: 127.0.0.1` 或者改成`bindIp: 0.0.0.0` 即可开启远程连接 2.开启权限认证 security： authorization: enabled #注意缩进，参照其他的值来……
+        </div>
+        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/mongodb/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/" title="数据结构答辩准备">数据结构答辩准备</a>
             </h1>
         </header>
@@ -250,24 +275,6 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="https://yiye.lizhuo.asia/post/Minio/" title="Minio">Minio</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2020年12月4日
-        </date>
-        
-        <div class="post-content">
-            Minio 同阿里云的oss，七牛云的对象存储 用docker安装minio 1 2 3 4 5 6 7 docker run -p 9000:9000 --name minio \ -d --restart=always \ -e &#34;MINIO_ACCESS_KEY=#自己的账号&#34; \ -e &#34;MINIO_SECRET_KEY=#自己的密码&#34; \ -v /home/data:/data \ -v /home/config:/root/.minio \ minio/minio server /data minio rclone的 conf……
-        </div>
-        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/Minio/">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
                 <a href="https://yiye.lizhuo.asia/post/Rclone/" title="Rclone">Rclone</a>
             </h1>
         </header>
@@ -362,6 +369,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://yiye.lizhuo.asia/post/mongodb/" title="MongoDB">MongoDB</a>
+    </li>
+    
+    <li>
         <a href="https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/" title="数据结构答辩准备">数据结构答辩准备</a>
     </li>
     
@@ -394,10 +405,6 @@
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/Minio/" title="Minio">Minio</a>
-    </li>
-    
-    <li>
         <a href="https://yiye.lizhuo.asia/post/Rclone/" title="Rclone">Rclone</a>
     </li>
     
@@ -425,6 +432,12 @@
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
+    <li><a href="https://yiye.lizhuo.asia/categories/Jenkins/">Jenkins (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/Minio/">Minio (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/MongoDB/">MongoDB (1)</a></li>
+    
     <li><a href="https://yiye.lizhuo.asia/categories/git/">git (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/github/">github (1)</a></li>
@@ -451,6 +464,12 @@
     <section class="widget">
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
+    
+    <a href="https://yiye.lizhuo.asia/tags/Jenkins/">Jenkins</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/Minio/">Minio</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/MongoDB/">MongoDB</a>
     
     <a href="https://yiye.lizhuo.asia/tags/git/">git</a>
     

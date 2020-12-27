@@ -6,10 +6,19 @@
     <description>Recent content in Posts on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 14 Dec 2020 19:17:42 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2020 10:46:07 +0800</lastBuildDate>
     
 	<atom:link href="https://yiye.lizhuo.asia/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://yiye.lizhuo.asia/post/mongodb/</link>
+      <pubDate>Sat, 26 Dec 2020 10:46:07 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/mongodb/</guid>
+      <description>MongoDB 安装 docker安装 1 docker run -p 27017:27017 -v /data/mongo:/data/db --name mongodb -d mongo --auth 1 2 3 4 创建用户 db.createUser({ user:&amp;#39;admin&amp;#39;,pwd:&amp;#39;123456&amp;#39;,roles:[ { role:&amp;#39;userAdminAnyDatabase&amp;#39;, db: &amp;#39;admin&amp;#39;}]}); 登录 db.auth(&amp;#39;admin&amp;#39;, &amp;#39;123456&amp;#39;) 远端登录 在 mongodb 的容器当中 更新源 apt-get update 安装 vim apt-get install vim 修改 mongo 配置文件 vim /etc/mongod.conf.orig 1 2 3 4 1.确保注释掉`# bindIp: 127.0.0.1` 或者改成`bindIp: 0.0.0.0` 即可开启远程连接 2.开启权限认证 security： authorization: enabled #注意缩进，参照其他的值来</description>
+    </item>
     
     <item>
       <title>数据结构答辩准备</title>
@@ -84,15 +93,6 @@
     </item>
     
     <item>
-      <title>Minio</title>
-      <link>https://yiye.lizhuo.asia/post/Minio/</link>
-      <pubDate>Fri, 04 Dec 2020 18:16:31 +0800</pubDate>
-      
-      <guid>https://yiye.lizhuo.asia/post/Minio/</guid>
-      <description>Minio 同阿里云的oss，七牛云的对象存储 用docker安装minio 1 2 3 4 5 6 7 docker run -p 9000:9000 --name minio \ -d --restart=always \ -e &amp;#34;MINIO_ACCESS_KEY=#自己的账号&amp;#34; \ -e &amp;#34;MINIO_SECRET_KEY=#自己的密码&amp;#34; \ -v /home/data:/data \ -v /home/config:/root/.minio \ minio/minio server /data minio rclone的 conf</description>
-    </item>
-    
-    <item>
       <title>Rclone</title>
       <link>https://yiye.lizhuo.asia/post/Rclone/</link>
       <pubDate>Thu, 03 Dec 2020 11:53:25 +0800</pubDate>
@@ -111,12 +111,21 @@
     </item>
     
     <item>
+      <title>Minio</title>
+      <link>https://yiye.lizhuo.asia/post/Minio/</link>
+      <pubDate>Sat, 28 Nov 2020 14:48:07 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/Minio/</guid>
+      <description>Minio 同阿里云的oss，七牛云的对象存储 用docker安装minio 1 2 3 4 5 6 7 docker run -p 9000:9000 --name minio \ -d --restart=always \ -e &amp;#34;MINIO_ACCESS_KEY=#自己的账号&amp;#34; \ -e &amp;#34;MINIO_SECRET_KEY=#自己的密码&amp;#34; \ -v /home/data:/data \ -v /home/config:/root/.minio \ minio/minio server /data minio rclone的 conf</description>
+    </item>
+    
+    <item>
       <title>Jenkins</title>
       <link>https://yiye.lizhuo.asia/post/jenkins/</link>
       <pubDate>Sat, 28 Nov 2020 14:46:07 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/post/jenkins/</guid>
-      <description>jenkins学习 jenkins在windows上的安装 管理员的身份启动CMD 启动命令： 1 net start jenkins 关闭命令： 1 net start jenkins</description>
+      <description>jenkins jenkins在windows上的安装 管理员的身份启动CMD 启动命令： 1 net start jenkins 关闭命令： 1 net start jenkins</description>
     </item>
     
     <item>

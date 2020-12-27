@@ -4,22 +4,37 @@
   
   <url>
     <loc>https://yiye.lizhuo.asia/categories/</loc>
-    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/tags/MongoDB/</loc>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/categories/MongoDB/</loc>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/post/mongodb/</loc>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yiye.lizhuo.asia/post/</loc>
-    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yiye.lizhuo.asia/tags/</loc>
-    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yiye.lizhuo.asia/</loc>
-    <lastmod>2020-12-14T19:17:42+08:00</lastmod>
+    <lastmod>2020-12-26T10:46:07+08:00</lastmod>
   </url>
   
   <url>
@@ -113,11 +128,6 @@
   </url>
   
   <url>
-    <loc>https://yiye.lizhuo.asia/post/Minio/</loc>
-    <lastmod>2020-12-04T18:16:31+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yiye.lizhuo.asia/post/Rclone/</loc>
     <lastmod>2020-12-03T11:53:25+08:00</lastmod>
   </url>
@@ -140,6 +150,31 @@
   <url>
     <loc>https://yiye.lizhuo.asia/post/git&#43;github/</loc>
     <lastmod>2020-11-29T19:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/tags/Minio/</loc>
+    <lastmod>2020-11-28T14:48:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/categories/Minio/</loc>
+    <lastmod>2020-11-28T14:48:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/post/Minio/</loc>
+    <lastmod>2020-11-28T14:48:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/tags/Jenkins/</loc>
+    <lastmod>2020-11-28T14:46:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yiye.lizhuo.asia/categories/Jenkins/</loc>
+    <lastmod>2020-11-28T14:46:07+08:00</lastmod>
   </url>
   
   <url>
