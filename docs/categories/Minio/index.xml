@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minio on yiye blog</title>
+    <link>http://oss.yiye.show/categories/Minio/</link>
+    <description>Recent content in Minio on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 28 Nov 2020 14:48:07 +0800</lastBuildDate>
+    
+	<atom:link href="http://oss.yiye.show/categories/Minio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minio</title>
+      <link>http://oss.yiye.show/post/Minio/</link>
+      <pubDate>Sat, 28 Nov 2020 14:48:07 +0800</pubDate>
+      
+      <guid>http://oss.yiye.show/post/Minio/</guid>
+      <description>Minio 同阿里云的oss，七牛云的对象存储 用docker安装minio 1 2 3 4 5 6 7 docker run -p 9000:9000 --name minio \ -d --restart=always \ -e &amp;#34;MINIO_ACCESS_KEY=#自己的账号&amp;#34; \ -e &amp;#34;MINIO_SECRET_KEY=#自己的密码&amp;#34; \ -v /home/data:/data \ -v /home/config:/root/.minio \ minio/minio server /data minio rclone的 conf</description>
+    </item>
+    
+  </channel>
+</rss>

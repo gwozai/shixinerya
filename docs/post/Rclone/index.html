@@ -22,7 +22,7 @@
     <meta name="description" content="Rclone">
         
     <meta name="author" content="yiye">
-    <meta property="og:url" content="https://yiye.lizhuo.asia/post/Rclone/">
+    <meta property="og:url" content="http://oss.yiye.show/post/Rclone/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -50,7 +50,7 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <a id="logo" href="https://yiye.lizhuo.asia/">
+                    <a id="logo" href="http://oss.yiye.show">
                         yiye blog
                     </a>
                 
@@ -58,13 +58,13 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current" href="https://yiye.lizhuo.asia/">首页</a>
+                    <a class="current" href="http://oss.yiye.show">首页</a>
                     
-                    <a  href="https://yiye.lizhuo.asia/tools/" title="工具">工具</a>
+                    <a  href="http://oss.yiye.show/tools/" title="工具">工具</a>
                     
-                    <a  href="https://yiye.lizhuo.asia/archives/" title="归档">归档</a>
+                    <a  href="http://oss.yiye.show/archives/" title="归档">归档</a>
                     
-                    <a  href="https://yiye.lizhuo.asia/about/" title="关于">关于</a>
+                    <a  href="http://oss.yiye.show/about/" title="关于">关于</a>
                     
                 </nav>
             </div>
@@ -220,14 +220,55 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
 <li>获取指定 path 下所有数据文件的总大小。命令格式如下：</li>
 </ul>
 <p>　　rclone size remote:path</p>
+<h2 id="rclone文件的位置">rclone文件的位置</h2>
+<p>fine -name config</p>
+<p>$  root/.config/</p>
+<p>[minio]
+type = s3
+provider = Minio
+env_auth = false
+access_key_id = yiye
+secret_access_key = yiye@minio88
+region = cn-east-1
+endpoint = <a href="http://shuqi.icu">http://shuqi.icu</a>:9000
+location_constraint = 
+server_side_encryption =</p>
+<h3 id="天翼网盘">天翼网盘</h3>
+<p>下载安装包</p>
+<p>可以直接到github下载页面进行下载：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2Ftickstep%2Fcloudpan189-go%2Freleases">https://github.com/tickstep/cloudpan189-go/releases</a></p>
+<p>也可以直接到天翼云盘分享链接下载：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fcloud.189.cn%2Ft%2FRzUNre7nq2Uf">https://cloud.189.cn/t/RzUNre7nq2Uf</a>（访问码：io7x）</p>
+<p>安装包支持 windows, macOS, linux，其中Linux支持多种系统和架构，应有尽有，供君选择。</p>
+<p>选好符合自己系统版本的安装包，直接解压即可使用</p>
+<p>rclone sync -v person:/GitHub_Public/docs /www/wwwroot/myblog/docs &ndash;log-file=/home/data/shuqi/log_rclone.txt</p>
+<p>rclone sync person:/GitHub_Public/oss.yiye.show/docs oss:/yiyeoss/ -P</p>
+<p>利用shell脚本来进行网盘同步，配置邮箱服</p>
+<p>echo <strong><strong><strong><strong><strong><strong>网盘系统</strong></strong></strong></strong></strong></strong> &gt; C:\root\log.txt
+echo 开始时间是： &raquo; C:\root\log.txt
+echo %date% %time% &raquo; C:\root\log.txt
+rclone sync -v person:\ kieng:\Forerver_night &raquo; C:\root\log.txt
+echo kieng同步完成 &raquo; C:\root\log.txt
+rclone sync -v kieng:\Forerver_night leu:\PersonForerver &raquo; C:\root\log.txt 
+echo leu同步完成 &raquo; C:\root\log.txt
+rclone sync -v kieng:\Forerver_night huan:\PersonForever &raquo; C:\root\log.txt
+echo huan同步完成 &raquo; C:\root\log.txt
+rclone sync -v kieng:\Forerver_night myever:\YiyeHub &raquo; C:\root\log.txt
+echo myever同步完成 &raquo; C:\root\log.txt
+rclone sync -v myever:\share  person:\share &raquo; C:\root\log.txt
+echo share同步完成 &raquo; C:\root\log.txt
+rclone sync -v myever:\share\ C:\天翼云盘同步盘\19834858827\ &raquo; C:\root\log.txt
+echo 天翼网盘同步完成 &raquo; C:\root\log.txt
+echo 结束时间是： &raquo; C:\root\log.txt
+echo %date% %time% &raquo; C:\root\log.txt
+echo <strong><strong><strong><strong><strong><strong>小云为你管理一切。</strong></strong></strong></strong></strong></strong> &raquo; C:\root\log.txt
+TYPE C:\root\log.txt &raquo; C:\root\同步日志保存\log.txt</p>
 
         </div>
 
         
 <div class="post-archive">
     <ul class="post-copyright">
-        <li><strong>原文作者：</strong><a rel="author" href="https://yiye.lizhuo.asia/">yiye</a></li>
-        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://yiye.lizhuo.asia/post/Rclone/">https://yiye.lizhuo.asia/post/Rclone/</a></li>
+        <li><strong>原文作者：</strong><a rel="author" href="http://oss.yiye.show">yiye</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://oss.yiye.show/post/Rclone/">http://oss.yiye.show/post/Rclone/</a></li>
         <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
@@ -249,7 +290,7 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
         
         <li><a href="/post/jenkins/">Jenkins</a></li>
         
-        <li><a href="/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AD%94%E8%BE%A9/">数据结构</a></li>
+        <li><a href="/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/">idea激活</a></li>
         
     </ul>
 </div>
@@ -280,7 +321,7 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
 
                     <footer id="footer">
     <div>
-        &copy; 2020 <a href="https://yiye.lizhuo.asia/">yiye blog By yiye</a>
+        &copy; 2020 <a href="http://oss.yiye.show">yiye blog By yiye</a>
         
         | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">晋ICP备2020013641号</a>
         
@@ -327,10 +368,10 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
 
                 <div id="secondary">
     <section class="widget">
-        <form id="search" action='https://yiye.lizhuo.asia/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='http://oss.yiye.show/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
-      <input type="hidden" name="sitesearch" value="https://yiye.lizhuo.asia/">
+      <input type="hidden" name="sitesearch" value="http://oss.yiye.show">
       <button type="submit" class="submit icon-search"></button>
 </form>
     </section>
@@ -340,43 +381,43 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
 <ul class="widget-list">
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/mongodb/" title="MongoDB">MongoDB</a>
+        <a href="http://oss.yiye.show/post/lanqiao/" title="蓝桥杯">蓝桥杯</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/" title="数据结构答辩准备">数据结构答辩准备</a>
+        <a href="http://oss.yiye.show/post/mongodb/" title="MongoDB">MongoDB</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/" title="四级作文">四级作文</a>
+        <a href="http://oss.yiye.show/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/" title="数据结构答辩准备">数据结构答辩准备</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/" title="谷粒商城">谷粒商城</a>
+        <a href="http://oss.yiye.show/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/" title="四级作文">四级作文</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" title="好用的软件">好用的软件</a>
+        <a href="http://oss.yiye.show/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/" title="谷粒商城">谷粒商城</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/" title="windows的一些脚本">windows的一些脚本</a>
+        <a href="http://oss.yiye.show/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" title="必备软件">必备软件</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/Aria2/" title="Aria2">Aria2</a>
+        <a href="http://oss.yiye.show/post/win%E5%91%BD%E4%BB%A4/" title="windows的一些脚本">windows的一些脚本</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/Mysql/" title="Mysql">Mysql</a>
+        <a href="http://oss.yiye.show/post/Aria2/" title="Aria2">Aria2</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/OneDrive/" title="OneDrive">OneDrive</a>
+        <a href="http://oss.yiye.show/post/Mysql/" title="Mysql">Mysql</a>
     </li>
     
     <li>
-        <a href="https://yiye.lizhuo.asia/post/Rclone/" title="Rclone">Rclone</a>
+        <a href="http://oss.yiye.show/post/OneDrive/" title="番茄 OneDrive 云服务商">番茄 OneDrive 云服务商</a>
     </li>
     
 </ul>
@@ -403,31 +444,39 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
-    <li><a href="https://yiye.lizhuo.asia/categories/Jenkins/">Jenkins (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/Jenkins/">Jenkins (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/Minio/">Minio (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/Minio/">Minio (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/MongoDB/">MongoDB (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/MongoDB/">MongoDB (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/git/">git (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/OneDrive/">OneDrive (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/github/">github (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/git/">git (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/hugo/">hugo (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/github/">github (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/">idea激活 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/hugo/">hugo (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/idea%E6%BF%80%E6%B4%BB/">idea激活 (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/">答辩准备 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商 (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9E%84/">答辩结构 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务 (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/">谷粒商城 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6/">必备软件 (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/%E9%82%AE%E7%AE%B1/">邮箱 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/%E7%95%AA%E8%8C%84/">番茄 (1)</a></li>
     
-    <li><a href="https://yiye.lizhuo.asia/categories/%E9%A1%B9%E7%9B%AE/">项目 (1)</a></li>
+    <li><a href="http://oss.yiye.show/categories/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/">答辩准备 (1)</a></li>
+    
+    <li><a href="http://oss.yiye.show/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/">蓝桥杯 (1)</a></li>
+    
+    <li><a href="http://oss.yiye.show/categories/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/">谷粒商城 (1)</a></li>
+    
+    <li><a href="http://oss.yiye.show/categories/%E9%82%AE%E7%AE%B1/">邮箱 (1)</a></li>
+    
+    <li><a href="http://oss.yiye.show/categories/%E9%A1%B9%E7%9B%AE/">项目 (1)</a></li>
     
 </ul>
     </section>
@@ -436,31 +485,39 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
-    <a href="https://yiye.lizhuo.asia/tags/Jenkins/">Jenkins</a>
+    <a href="http://oss.yiye.show/tags/Jenkins/">Jenkins</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/Minio/">Minio</a>
+    <a href="http://oss.yiye.show/tags/Minio/">Minio</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/MongoDB/">MongoDB</a>
+    <a href="http://oss.yiye.show/tags/MongoDB/">MongoDB</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/git/">git</a>
+    <a href="http://oss.yiye.show/tags/OneDrive/">OneDrive</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/github/">github</a>
+    <a href="http://oss.yiye.show/tags/git/">git</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/hugo/">hugo</a>
+    <a href="http://oss.yiye.show/tags/github/">github</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/idea%E6%BF%80%E6%B4%BB/">idea激活</a>
+    <a href="http://oss.yiye.show/tags/hugo/">hugo</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务</a>
+    <a href="http://oss.yiye.show/tags/idea%E6%BF%80%E6%B4%BB/">idea激活</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/">答辩准备</a>
+    <a href="http://oss.yiye.show/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9E%84/">答辩结构</a>
+    <a href="http://oss.yiye.show/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/">谷粒商城</a>
+    <a href="http://oss.yiye.show/tags/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6/">必备软件</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/%E9%82%AE%E7%AE%B1/">邮箱</a>
+    <a href="http://oss.yiye.show/tags/%E7%95%AA%E8%8C%84/">番茄</a>
     
-    <a href="https://yiye.lizhuo.asia/tags/%E9%A1%B9%E7%9B%AE/">项目</a>
+    <a href="http://oss.yiye.show/tags/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/">答辩准备</a>
+    
+    <a href="http://oss.yiye.show/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/">蓝桥杯</a>
+    
+    <a href="http://oss.yiye.show/tags/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/">谷粒商城</a>
+    
+    <a href="http://oss.yiye.show/tags/%E9%82%AE%E7%AE%B1/">邮箱</a>
+    
+    <a href="http://oss.yiye.show/tags/%E9%A1%B9%E7%9B%AE/">项目</a>
     
 </div>
     </section>
@@ -485,7 +542,7 @@ rclone sync 同步的始终是 path 目录下的数据，而不是 path 目录�
     <section class="widget">
         <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
-            <li><a href="https://yiye.lizhuo.asia/index.xml">文章 RSS</a></li>
+            <li><a href="http://oss.yiye.show/index.xml">文章 RSS</a></li>
         </ul>
     </section>
 </div>
