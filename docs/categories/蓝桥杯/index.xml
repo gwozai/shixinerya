@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>蓝桥杯 on yiye blog</title>
-    <link>http://oss.yiye.show/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
+    <link>https://yiye.lizhuo.asia/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
     <description>Recent content in 蓝桥杯 on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 30 Dec 2020 09:18:07 +0800</lastBuildDate>
     
-	<atom:link href="http://oss.yiye.show/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yiye.lizhuo.asia/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>蓝桥杯</title>
-      <link>http://oss.yiye.show/post/lanqiao/</link>
+      <link>https://yiye.lizhuo.asia/post/lanqiao/</link>
       <pubDate>Wed, 30 Dec 2020 09:18:07 +0800</pubDate>
       
-      <guid>http://oss.yiye.show/post/lanqiao/</guid>
+      <guid>https://yiye.lizhuo.asia/post/lanqiao/</guid>
       <description>蓝桥杯比赛 摘要： 报名蓝桥杯的比赛，希望通过比赛来增强我的编程能力。 Java基础 + 数据结构 + 算法 + 往年练习题 问题：version 1.8.0 of the jvm is not suitable for this product 解决方法 eclipse安装目录找到eclipse.ini文件 将-Dosgi.requiredJavaVersion=11和-Dosgi</description>
     </item>
     
