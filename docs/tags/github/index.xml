@@ -13,11 +13,11 @@
     
     <item>
       <title>github搜索技巧</title>
-      <link>https://yiye.lizhuo.asia/post/github%E6%8A%80%E5%B7%A7/</link>
+      <link>https://yiye.lizhuo.asia/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
       
-      <guid>https://yiye.lizhuo.asia/post/github%E6%8A%80%E5%B7%A7/</guid>
-      <description>github使用技巧</description>
+      <guid>https://yiye.lizhuo.asia/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/</guid>
+      <description>github使用技巧 github搜索技巧 # 找一个springboot项目 in:name:springboot stars:&amp;gt;4000 pushed:&amp;gt;2020-01-01 language:java forks:&amp;gt;10000 # 找一个python项目 in:readme:spider 淘宝 stars:&amp;gt;1000 pushed:&amp;gt;2020-09-01</description>
     </item>
     
   </channel>

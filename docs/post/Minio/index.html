@@ -128,7 +128,7 @@
 </span><span style="color:#d14"></span>minio/minio server /data
 </code></pre></td></tr></table>
 </div>
-</div><p>minio rclone的 config配置：</p>
+</div><p>rclone连接的 config配置：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -155,8 +155,7 @@
 <span style="color:#008080">server_side_encryption</span> <span style="color:#000;font-weight:bold">=</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>想法：github action 可以运行docker容器，我在docker容器里面安装Minio</p>
-<p>zfile</p>
+</div><p>zfile</p>
 <pre><code>java -Dfile.encoding=utf-8 -jar -Dserver.port=8080 .\zfile-release.jar
 </code></pre><p>docker run -d -v /etc
         <a data-fancybox="gallery" href="C:%5CUsers%5Ctemperature0%5CAppData%5CRoaming%5CTencent%5CQQTempSys%5CUG9%60@AH2%25L%7B%7DS0N6%7D3E~FO2.gif">
@@ -167,8 +166,15 @@
             <img class="mx-auto" alt="img" src="file:///C:%5cUsers%5ctemperature0%5cAppData%5cRoaming%5cTencent%5cQQTempSys%5cUG9%60@AH2%25L%7b%7dS0N6%7d3E~FO2.gif" />
         </a>
     list</p>
+<p>蓐羊毛的点子：github action 可以运行docker容器，我在docker容器里面安装Minio，使用免费空间</p>
+<p>sharelist</p>
 <pre><code>docker run -d -v /etc/sharelist:/app/cache -p 33001:33001 --name=&quot;sharelist&quot; reruin/sharelist
-</code></pre>
+</code></pre><p>
+        <a data-fancybox="gallery" href="https://gitee.com/excellenthub/img/raw/master/20201113013636.jpg">
+            <img class="mx-auto" alt="20201113013636" src="https://gitee.com/excellenthub/img/raw/master/20201113013636.jpg" />
+        </a>
+    </p>
+
         </div>
 
         
@@ -189,13 +195,13 @@
     <h2>See Also</h2>
     <ul class="listing">
         
-        <li><a href="/post/jenkins/">Jenkins</a></li>
+        <li><a href="/post/java%E9%85%8D%E7%BD%AE/">一些软件的使用</a></li>
         
         <li><a href="/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/">idea激活</a></li>
         
-        <li><a href="/post/hugo/">Hugo博客</a></li>
+        <li><a href="/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/">github搜索技巧</a></li>
         
-        <li><a href="/post/github%E6%8A%80%E5%B7%A7/">github搜索技巧</a></li>
+        <li><a href="/post/oneindex/"></a></li>
         
         <li><a href="/tools/">工具</a></li>
         
@@ -232,7 +238,7 @@
 
                     <footer id="footer">
     <div>
-        &copy; 2020 <a href="https://yiye.lizhuo.asia">yiye blog By yiye</a>
+        &copy; 2021 <a href="https://yiye.lizhuo.asia">yiye blog By yiye</a>
         
         | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">晋ICP备2020013641号</a>
         
@@ -292,6 +298,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://yiye.lizhuo.asia/post/hugo/" title="Hugo博客">Hugo博客</a>
+    </li>
+    
+    <li>
         <a href="https://yiye.lizhuo.asia/post/lanqiao/" title="蓝桥杯">蓝桥杯</a>
     </li>
     
@@ -327,10 +337,6 @@
         <a href="https://yiye.lizhuo.asia/post/Mysql/" title="Mysql">Mysql</a>
     </li>
     
-    <li>
-        <a href="https://yiye.lizhuo.asia/post/OneDrive/" title="番茄 OneDrive 云服务商">番茄 OneDrive 云服务商</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -363,13 +369,13 @@
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
-    <li><a href="https://yiye.lizhuo.asia/categories/Jenkins/">Jenkins (1)</a></li>
-    
     <li><a href="https://yiye.lizhuo.asia/categories/Minio/">Minio (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/MongoDB/">MongoDB (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/OneDrive/">OneDrive (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/docker/">docker (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/git/">git (1)</a></li>
     
@@ -378,6 +384,8 @@
     <li><a href="https://yiye.lizhuo.asia/categories/hugo/">hugo (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/">idea激活 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/jdk/">jdk (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商 (1)</a></li>
     
@@ -404,13 +412,13 @@
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
-    <a href="https://yiye.lizhuo.asia/tags/Jenkins/">Jenkins</a>
-    
     <a href="https://yiye.lizhuo.asia/tags/Minio/">Minio</a>
     
     <a href="https://yiye.lizhuo.asia/tags/MongoDB/">MongoDB</a>
     
     <a href="https://yiye.lizhuo.asia/tags/OneDrive/">OneDrive</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/docker/">docker</a>
     
     <a href="https://yiye.lizhuo.asia/tags/git/">git</a>
     
@@ -419,6 +427,8 @@
     <a href="https://yiye.lizhuo.asia/tags/hugo/">hugo</a>
     
     <a href="https://yiye.lizhuo.asia/tags/idea%E6%BF%80%E6%B4%BB/">idea激活</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/jdk/">jdk</a>
     
     <a href="https://yiye.lizhuo.asia/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商</a>
     

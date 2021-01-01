@@ -17,7 +17,7 @@
       <pubDate>Wed, 30 Dec 2020 09:18:07 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/post/lanqiao/</guid>
-      <description>蓝桥杯比赛 摘要： 报名蓝桥杯的比赛，希望通过比赛来增强我的编程能力。 Java基础 + 数据结构 + 算法 + 往年练习题 问题：version 1.8.0 of the jvm is not suitable for this product 解决方法 eclipse安装目录找到eclipse.ini文件 将-Dosgi.requiredJavaVersion=11和-Dosgi</description>
+      <description>蓝桥杯比赛 Java基础 + 数据结构 + 算法 + 往年练习题 eclipse安装时的问题：version 1.8.0 of the jvm is not suitable for this product 解决方法 eclipse安装目录找到eclipse.ini文件 将-Dosgi.requiredJavaVersion=11和-Dosgi.requiredJavaVers</description>
     </item>
     
   </channel>

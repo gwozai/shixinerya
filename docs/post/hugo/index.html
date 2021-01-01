@@ -13,10 +13,10 @@
     <meta property="og:title" content="Hugo博客 - yiye blog">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2020-10-05T19:17:42&#43;08:00'>
+    <meta property="article:published_time" content='2020-12-31T18:17:42&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2020-10-05T19:17:42&#43;08:00'>
+    <meta property="article:modified_time" content='2020-12-31T18:17:42&#43;08:00'>
         
     <meta name="Keywords" content="java,android,博客,项目管理,python,公众号,小程序">
     <meta name="description" content="Hugo博客">
@@ -87,7 +87,7 @@
             <h1 class="post-title">Hugo博客</h1>
         </header>
         <date class="post-meta meta-date">
-            2020年10月5日
+            2020年12月31日
         </date>
         
         <div class="post-meta">
@@ -105,36 +105,13 @@
         
         
         <div class="post-content">
-            <p>注册GitHub账号</p>
-<p>下载软件</p>
-<p>git</p>
-<p>gitdesk</p>
-<p>hugo的下载：主题</p>
-<p>推送：流行弹窗（像steam的弹窗一样）</p>
-<p>b2aaa3c543e</p>
+            <h2 id="用hugo生成静态网站目录">用hugo生成静态网站目录</h2>
+<p>可以使用markdown语法轻松的写博客，然后通过</p>
+<h2 id="预备条件">预备条件</h2>
+<p>给域名添加证书</p>
+<p>备案的域名</p>
 <p>docker run -d &ndash;name=zfile &ndash;restart=always \    -p 8088:8080 \    -v /root/zfile/conf:/root/.zfile \    -v /root/zfile/db:/root/.zfile-new/db \    -v /root/zfile/data:/root/zfile/data \    stilleshan/zfile</p>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d --name<span style="color:#000;font-weight:bold">=</span>zfile --restart<span style="color:#000;font-weight:bold">=</span>always <span style="color:#d14">\
-</span><span style="color:#d14"></span>    -p 8188:8080 <span style="color:#d14">\
-</span><span style="color:#d14"></span>    -v /root/zfile/conf:/root/.zfile <span style="color:#d14">\
-</span><span style="color:#d14"></span>    -v /root/zfile/db:/root/.zfile-new/db <span style="color:#d14">\
-</span><span style="color:#d14"></span>    -v /root/zfile/data:/root/zfile/data <span style="color:#d14">\
-</span><span style="color:#d14"></span>    stilleshan/zfile
-</code></pre></td></tr></table>
-</div>
-</div><p>http://39.103.135.32:/8088/#/install</p>
-<p>hexo,t</p>
-<p>其他可以搭建博客的方法</p>
-<h1 id="推送成功的解决方法">推送成功的解决方法</h1>
+<p>推送成功的解决方法</p>
 <p>把生成的public文件换成docs</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -144,26 +121,105 @@
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo -d docs
 </code></pre></td></tr></table>
 </div>
-</div><p>在GitHub的目录下引用docs</p>
+</div><h2 id="github博客">github博客</h2>
+<p>注册GitHub账号</p>
+<p>搭建仓库</p>
+<p>用GitHub Desktop把docs推送到GitHub上</p>
+<p>在setting下设置GitHub Pages site的引用目录:把docs添加进来</p>
 <p>
-        <a data-fancybox="gallery" href="http://kodohub.yiye.show/img/image-20201205093029538.png">
-            <img class="mx-auto" alt="image-20201205093029538" src="http://kodohub.yiye.show/img/image-20201205093029538.png" />
+        <a data-fancybox="gallery" href="https://gitee.com/excellenthub/img/raw/master/image-20201205093029538.png">
+            <img class="mx-auto" alt="image-20201205093029538" src="https://gitee.com/excellenthub/img/raw/master/image-20201205093029538.png" />
         </a>
     </p>
-<h2 id="预备条件">预备条件</h2>
-<p>服务器：centos/github(gitee)/oss</p>
-<p>给域名添加证书</p>
-<p>备案的域名</p>
-<p>这次搭建的站是我有史以来最成功的，早在大一上的时候就想要自己搭建博客了。</p>
-<p>写博客的培训教程培训，我是有的忙了</p>
-<h2 id="使用oss搭建博客">使用oss搭建博客</h2>
-<p>用hugo生成静态网站的文件，</p>
-<p>设置oss为公共读权限</p>
-<p>用rclone连接oss，把本地的docs同步到oss上</p>
-<h4 id="给oss博客添加证书">给oss博客添加证书</h4>
+<h2 id="服务器搭建博客">服务器搭建博客</h2>
+<p>搭建塔面板：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#998;font-style:italic"># 一键脚本搭建</span>
+yum install -y wget <span style="color:#000;font-weight:bold">&amp;&amp;</span> wget -O install.sh http://download.bt.cn/install/install_6.0.sh <span style="color:#000;font-weight:bold">&amp;&amp;</span> sh install.sh
+</code></pre></td></tr></table>
+</div>
+</div><p>添加站点</p>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/excellenthub/img/raw/master/image-20201231180350410.png">
+            <img class="mx-auto" alt="image-20201231180350410" src="https://gitee.com/excellenthub/img/raw/master/image-20201231180350410.png" />
+        </a>
+    </p>
+<p>将docs目录导入进来</p>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/excellenthub/img/raw/master/image-20201231180457984.png">
+            <img class="mx-auto" alt="image-20201231180457984" src="https://gitee.com/excellenthub/img/raw/master/image-20201231180457984.png" />
+        </a>
+    </p>
+<h2 id="使用oss托管静态网站">使用oss托管静态网站</h2>
+<p>设置oss为公共读权限，用rclone连接oss，把本地的docs同步到oss上。</p>
+<pre><code># 设置oss公共读权限
+[oss]
+type = s3
+provider = Alibaba
+env_auth = false
+access_key_id = &lt;自己的id&gt;
+secret_access_key = &lt;自己的key&gt;
+endpoint = oss-cn-beijing.aliyuncs.com
+acl = public-read
+torage_class = Standard
+
+</code></pre><div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#998;font-style:italic"># 生成docs文件并上传到oss</span>
+<span style="color:#0086b3">rmdir </span>/s/q docs
+hugo -d docs
+rclone sync .\docs oss<span style="color:#a61717;background-color:#e3d2d2">:</span>\yiyeoss\ -P
+</code></pre></td></tr></table>
+</div>
+</div><p>给oss绑定域名</p>
+<p>设置静态页面</p>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/excellenthub/img/raw/master/image-20201231175159318.png">
+            <img class="mx-auto" alt="image-20201231175159318" src="https://gitee.com/excellenthub/img/raw/master/image-20201231175159318.png" />
+        </a>
+    </p>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/excellenthub/img/raw/master/image-20201231175219602.png">
+            <img class="mx-auto" alt="image-20201231175219602" src="https://gitee.com/excellenthub/img/raw/master/image-20201231175219602.png" />
+        </a>
+    </p>
+<h4 id="给oss博客添加ssl证书">给oss博客添加SSL证书</h4>
 <p>我用的是七牛云的免费ssl证书</p>
 <h3 id="关于分享盘的搭建">关于分享盘的搭建</h3>
-<p>可以使用天翼云盘，和彩云，OneDrive的世纪网盘速度都是很不错的</p>
+<p>可以使用天翼云盘，和彩云，OneDrive的世纪网盘速度都是很不错的:</p>
+<p>zfile: 可以登录OneDrive，Minio等</p>
+<pre><code>docker run -d --name=zfile --restart=always \
+    -p 8188:8080 \
+    -v /root/zfile/conf:/root/.zfile \
+    -v /root/zfile/db:/root/.zfile-new/db \
+    -v /root/zfile/data:/root/zfile/data \
+    stilleshan/zfile
+</code></pre><p>oneindex: 可以登录 OneDrive等</p>
+<pre><code>#创建临时容器：
+docker run -itd --name=tmp baiyuetribe/oneindex
+#拷贝容器内文件到宿主机目录：
+docker cp tmp:/var/www/html /opt/oneindex
+docker rm -f tmp
+#正式启动服务：
+docker run -d -p 8181:80 -v /opt/oneindex:/var/www/html --restart=always baiyuetribe/oneindex
+</code></pre><p>sharelist:可以挂载天翼云盘、和彩云、蓝奏云等</p>
+<pre><code>docker run -d -v /etc/sharelist:/app/cache -p 33001:33001 --name=&quot;sharelist&quot; reruin/sharelist
+</code></pre><p>改动天翼云盘就可以完成分享。</p>
+<p>可以白嫖一些服务商的免费ssl证书。如：七牛云（真的很良心）</p>
+<h2 id="typoro--picgo">typoro + picgo</h2>
+<p>picgo支持gitee图床、七牛图床、smms图床、oss图床、GitHub图床</p>
+<p>可以把图片存在图床上，使用图片就很方便了</p>
 
         </div>
 
@@ -185,13 +241,15 @@
     <h2>See Also</h2>
     <ul class="listing">
         
-        <li><a href="/post/github%E6%8A%80%E5%B7%A7/">github搜索技巧</a></li>
+        <li><a href="/post/lanqiao/">蓝桥杯</a></li>
         
-        <li><a href="/tools/">工具</a></li>
+        <li><a href="/post/mongodb/">MongoDB</a></li>
         
-        <li><a href="/archives/">归档</a></li>
+        <li><a href="/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/">数据结构答辩准备</a></li>
         
-        <li><a href="/search/">搜索</a></li>
+        <li><a href="/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/">四级作文</a></li>
+        
+        <li><a href="/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/">谷粒商城</a></li>
         
     </ul>
 </div>
@@ -226,7 +284,7 @@
 
                     <footer id="footer">
     <div>
-        &copy; 2020 <a href="https://yiye.lizhuo.asia">yiye blog By yiye</a>
+        &copy; 2021 <a href="https://yiye.lizhuo.asia">yiye blog By yiye</a>
         
         | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">晋ICP备2020013641号</a>
         
@@ -286,6 +344,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://yiye.lizhuo.asia/post/hugo/" title="Hugo博客">Hugo博客</a>
+    </li>
+    
+    <li>
         <a href="https://yiye.lizhuo.asia/post/lanqiao/" title="蓝桥杯">蓝桥杯</a>
     </li>
     
@@ -321,10 +383,6 @@
         <a href="https://yiye.lizhuo.asia/post/Mysql/" title="Mysql">Mysql</a>
     </li>
     
-    <li>
-        <a href="https://yiye.lizhuo.asia/post/OneDrive/" title="番茄 OneDrive 云服务商">番茄 OneDrive 云服务商</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -357,13 +415,13 @@
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
-    <li><a href="https://yiye.lizhuo.asia/categories/Jenkins/">Jenkins (1)</a></li>
-    
     <li><a href="https://yiye.lizhuo.asia/categories/Minio/">Minio (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/MongoDB/">MongoDB (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/OneDrive/">OneDrive (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/docker/">docker (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/git/">git (1)</a></li>
     
@@ -372,6 +430,8 @@
     <li><a href="https://yiye.lizhuo.asia/categories/hugo/">hugo (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/">idea激活 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/jdk/">jdk (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商 (1)</a></li>
     
@@ -398,13 +458,13 @@
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
-    <a href="https://yiye.lizhuo.asia/tags/Jenkins/">Jenkins</a>
-    
     <a href="https://yiye.lizhuo.asia/tags/Minio/">Minio</a>
     
     <a href="https://yiye.lizhuo.asia/tags/MongoDB/">MongoDB</a>
     
     <a href="https://yiye.lizhuo.asia/tags/OneDrive/">OneDrive</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/docker/">docker</a>
     
     <a href="https://yiye.lizhuo.asia/tags/git/">git</a>
     
@@ -413,6 +473,8 @@
     <a href="https://yiye.lizhuo.asia/tags/hugo/">hugo</a>
     
     <a href="https://yiye.lizhuo.asia/tags/idea%E6%BF%80%E6%B4%BB/">idea激活</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/jdk/">jdk</a>
     
     <a href="https://yiye.lizhuo.asia/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商</a>
     
