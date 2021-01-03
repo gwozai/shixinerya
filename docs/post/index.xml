@@ -6,10 +6,19 @@
     <description>Recent content in Posts on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 31 Dec 2020 18:17:42 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 19:09:42 +0800</lastBuildDate>
     
 	<atom:link href="https://yiye.lizhuo.asia/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://yiye.lizhuo.asia/post/docker/</link>
+      <pubDate>Fri, 01 Jan 2021 19:09:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/docker/</guid>
+      <description>docker安装 # 卸载旧版本 # 较旧的 Docker 版本称为 docker 或 docker-engine 。如果已安装这些程序，请卸载它们以及相关的依赖项。 yum remove docker \ docker-client \ docker-client-latest \ docker-common \ docker-latest \ docker-latest-logrotate \ docker-logrotate \ docker-engine # 设置仓库 # 安装所需的软件包。yum-utils 提供了 yum-config-manager ，并且 device mapper 存储驱动程序需要 device-mapper-persistent-data 和 lvm2。 yum install -y yum-utils \ device-mapper-persistent-data \ lvm2 # 使用以下命令来设置稳定的仓库。</description>
+    </item>
     
     <item>
       <title>Hugo博客</title>
@@ -71,7 +80,7 @@
       <pubDate>Mon, 07 Dec 2020 12:35:58 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
-      <description>必备软件 番茄（clash，winxray） 向日葵 qq 微信 tim telegram steam 钉钉 网易云 腾讯视频 大学英语 jdk8 idea eclipse notepad++ vscode devcpp vs2019 bandziip potplayer freedownload xmind zoomit snipast Everything google edge firefox 百分浏览器 印象笔记 有道词典 typora + picgo hugo ediary 滴答清单 docker github desktop git vmware 超星云盘 百度网盘 天翼云盘 和彩云 OneDrive rclone sqlyog redisdesk xshell-xftp7 远程控制 mongodb studio3T stunnel + blat</description>
+      <description>必备软件 番茄（clash，winxray） 向日葵 qq 微信 tim telegram steam 钉钉 网易云 腾讯视频 大学英语 jdk8 idea eclipse notepad++ vscode devcpp vs2019 bandziip potplayer freedownload xmind zoomit snipast Everything google edge firefox 百分浏览器 印象笔记 有道词典 typora + picgo hugo ediary 滴答清单 docker github desktop git vmware 超星云盘 百度网盘 天翼云盘 和彩云 OneDrive rclone sqlyog redisdesk xshell-xftp7 远程控制 mongodb(studio3T) stunnel + blat</description>
     </item>
     
     <item>
