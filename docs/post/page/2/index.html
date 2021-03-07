@@ -83,6 +83,103 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://yiye.lizhuo.asia/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/" title="谷粒商城">谷粒商城</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年12月7日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E'>谷粒商城</a></span>
+            
+            <span class="meta-category"><a href='/categories/%E9%A1%B9%E7%9B%AE'>项目</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            谷粒商城项目日志 摘要：项目整理 12/3 在docker中安装mysql 我直接用服务器安装docker，省去了vegrent搭建的虚拟环境 docker容器设置自动启动 mysql的安装 1 &gt; docker run -p 3306:3306 --name mysql -v /mydata/mysql/log:/var/log/mysql -v /mydata/mysql/data:/var/lib/mysql -v /mydata/mysql/conf:/etc/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7 1 where is mysql # 可以查看mysql的安装位置 redis的安装 1 2 3 4 5 6 mkdir -p /mydata/redis/conf……
+        </div>
+        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" title="必备软件">必备软件</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年12月7日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6'>必备软件</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            必备软件 番茄（clash，winxray） 向日葵 qq 微信 tim telegram steam 钉钉 网易云 腾讯视频 大学英语 jdk8 idea eclipse notepad++ vscode devcpp vs2019 bandziip potplayer freedownload xmind zoomit snipast Everything google edge firefox 百分浏览器 印象笔记 有道词典 typora + picgo hugo ediary 滴答清单 docker github desktop git vmware 超星云盘 百度网盘 天翼云盘 和彩云 OneDrive rclone sqlyog redisdesk xshell-xftp7 远程控制 mongodb(studio3T) stunnel + blat……
+        </div>
+        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/" title="windows的一些脚本">windows的一些脚本</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年12月5日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1'>定时任务</a></span>
+            
+            <span class="meta-category"><a href='/categories/%E9%82%AE%E7%AE%B1'>邮箱</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            window的一些脚本 校园网开机认证太麻烦，我用脚本使认证开机自启。 1 2 3 4 5 6 ::查看可用网络 netsh wlan show networks ::断开WiFi连接 netsh wlan disconnect ::连接WiFi ZBXS-GiWiFi netsh wlan connect ssid=ZBXS-GiWiFi name=ZBXS-GiWiFi 可以使用命令行进行邮件推送 使用软件blat 蓝奏云下载 官方网址happy mailing : Blat online 1 2 3 4 :: 进入到blat的目录下 \blat\blat3222\full blat -install smtp.qq.com xxxxxxx@qq.com 3……
+        </div>
+        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://yiye.lizhuo.asia/post/Aria2/" title="Aria2">Aria2</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年12月4日
+        </date>
+        
+        <div class="post-content">
+            aria2 环境：centos7 aria2的安装 一键脚本：// 因为网络原因，如果没有安装好的话多试几次， 1 wget -N git.io/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; ./aria2.sh 选择 1 进行安装 配置自动上传脚本 Aria2 一键安装管理脚本 增强版 整合了 Aria2 完美配置 ，安装后会附带一些附加功能脚本功能脚本，RCLONE 自动上传脚本就是其中之一。由于默认不启用，所……
+        </div>
+        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/Aria2/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://yiye.lizhuo.asia/post/Mysql/" title="Mysql">Mysql</a>
             </h1>
         </header>
@@ -222,74 +319,6 @@
     
     
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/" title="idea激活">idea激活</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2020年11月5日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='/categories/idea%E6%BF%80%E6%B4%BB'>idea激活</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            IDEA2020.1.4激活码,IDEA 注册码,IDEA2020激活码 蓝奏云 要用到的插件： https://myfileforever.lanzous.com/b01tqyapg 密码:gpvt 蓝奏云二维码： 下面是正文 2020-07-23 09:51:12 分类：文章 阅读(1K+) 评论(0) 2020.1.4 IDEA 正版激活，IntelliJ IDEA 全家桶 注册码一、温馨提示**1、**本教程适用于 IntelliJ IDEA 2020.1.4 以下所有版本idea202……
-        </div>
-        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://yiye.lizhuo.asia/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/" title="github搜索技巧">github搜索技巧</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2020年10月5日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='/categories/github'>github</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            github使用技巧 github搜索技巧 # 找一个springboot项目 in:name:springboot stars:&gt;4000 pushed:&gt;2020-01-01 language:java forks:&gt;10000 # 找一个python项目 in:readme:spider 淘宝 stars:&gt;1000 pushed:&gt;2020-09-01……
-        </div>
-        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://yiye.lizhuo.asia/post/oneindex/" title=""></a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            1年1月1日
-        </date>
-        
-        <div class="post-content">
-            docker安装 首先安装docker【已安装的可跳过】 docker version &gt; /dev/null || curl -fsSL get.docker.com | bash service docker restart systemctl enable docker #设置开机自启 之后执行安装命令 #创建临时容器： docker run -itd --name=tmp baiyuetribe/oneindex#拷贝容器内文件到宿主机目录： docker cp tmp:/var/www/html /opt/oneindex docker rm -f tmp #正式启动服务： docker run -d -p 8181:80 -v /opt/oneindex:/var/www/html --restart=always baiyuetribe/oneindex……
-        </div>
-        <p class="readmore"><a href="https://yiye.lizhuo.asia/post/oneindex/">阅读全文</a></p>
-    </article>
-    
-    
-    
 
 
 
@@ -309,7 +338,15 @@
         <a href="https://yiye.lizhuo.asia/post/page/2/">2</a>
     </li>
     
+    <li >
+        <a href="https://yiye.lizhuo.asia/post/page/3/">3</a>
+    </li>
+    
 
+    
+    <li class="next">
+        <a href="https://yiye.lizhuo.asia/post/page/3/">下一页</a>
+    </li>
     
 </ol>
 
@@ -369,6 +406,22 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://yiye.lizhuo.asia/post/java_print%E6%A0%BC%E5%BC%8F%E6%89%93%E5%8D%B0/" title="java_print">java_print</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/java_data_structure/" title="java_data_structure">java_data_structure</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/python/" title="python小练习">python小练习</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/java/" title="java">java</a>
+    </li>
+    
+    <li>
         <a href="https://yiye.lizhuo.asia/post/docker/" title="docker">docker</a>
     </li>
     
@@ -390,22 +443,6 @@
     
     <li>
         <a href="https://yiye.lizhuo.asia/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/" title="四级作文">四级作文</a>
-    </li>
-    
-    <li>
-        <a href="https://yiye.lizhuo.asia/post/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/" title="谷粒商城">谷粒商城</a>
-    </li>
-    
-    <li>
-        <a href="https://yiye.lizhuo.asia/post/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" title="必备软件">必备软件</a>
-    </li>
-    
-    <li>
-        <a href="https://yiye.lizhuo.asia/post/win%E5%91%BD%E4%BB%A4/" title="windows的一些脚本">windows的一些脚本</a>
-    </li>
-    
-    <li>
-        <a href="https://yiye.lizhuo.asia/post/Aria2/" title="Aria2">Aria2</a>
     </li>
     
 </ul>
@@ -456,7 +493,11 @@
     
     <li><a href="https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/">idea激活 (1)</a></li>
     
+    <li><a href="https://yiye.lizhuo.asia/categories/java/">java (3)</a></li>
+    
     <li><a href="https://yiye.lizhuo.asia/categories/jdk/">jdk (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/python/">python (1)</a></li>
     
     <li><a href="https://yiye.lizhuo.asia/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商 (1)</a></li>
     
@@ -499,7 +540,11 @@
     
     <a href="https://yiye.lizhuo.asia/tags/idea%E6%BF%80%E6%B4%BB/">idea激活</a>
     
+    <a href="https://yiye.lizhuo.asia/tags/java/">java</a>
+    
     <a href="https://yiye.lizhuo.asia/tags/jdk/">jdk</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/python/">python</a>
     
     <a href="https://yiye.lizhuo.asia/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商</a>
     

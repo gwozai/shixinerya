@@ -6,10 +6,46 @@
     <description>Recent content on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 01 Jan 2021 19:09:42 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jan 2021 23:49:57 +0800</lastBuildDate>
     
 	<atom:link href="https://yiye.lizhuo.asia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>java_print</title>
+      <link>https://yiye.lizhuo.asia/post/java_print%E6%A0%BC%E5%BC%8F%E6%89%93%E5%8D%B0/</link>
+      <pubDate>Wed, 20 Jan 2021 23:49:57 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/java_print%E6%A0%BC%E5%BC%8F%E6%89%93%E5%8D%B0/</guid>
+      <description>java print的使用 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 public class printTest { public static void main(String[] args) { int x =1; double y =2.8888; System.out.println(&amp;#34;正常输出结果&amp;#34;); System.out.println(&amp;#34;x*y=&amp;#34;+x*y); System.out.println(&amp;#34;格式化输出结果右对齐&amp;#34;); System.out.print(&amp;#34;x*y=&amp;#34;); System.out.printf(&amp;#34;%.2f&amp;#34;,x*y); System.out.pr</description>
+    </item>
+    
+    <item>
+      <title>java_data_structure</title>
+      <link>https://yiye.lizhuo.asia/post/java_data_structure/</link>
+      <pubDate>Sat, 16 Jan 2021 17:01:57 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/java_data_structure/</guid>
+      <description>数据结构和算法 小练习 稀疏数组 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 public class arry { public static void main(String args[]) { System.out.println(&amp;#34;hello,world&amp;#34;); /** * 稀疏数组 */ //创建一个棋盘 int arrChese[][] = new int[11][11]; arrChese[2][4] = 2; arrChese[3][5] = 1; arrChese[6][4] = 2; // 输出原始的二维数组 int sum = 0; System</description>
+    </item>
+    
+    <item>
+      <title>python小练习</title>
+      <link>https://yiye.lizhuo.asia/post/python/</link>
+      <pubDate>Fri, 15 Jan 2021 21:22:57 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/python/</guid>
+      <description>python小练习 简单输出打印 石头剪刀布 0 1 2 1 2 0 不太会用python的数组，搞了好久没有搞出来😟 我的大概思路是： 用一个循环数组来存储数据： 当前数 == 随机数 ： 平局 当前的下一个 == 随机数 ：你输了 当前数的下一个的下一个 == 随机数 ：你赢了 for、while循环的使用 i = 0 while i &amp;lt; 10 : if(i == 5) :</description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://yiye.lizhuo.asia/post/java/</link>
+      <pubDate>Wed, 06 Jan 2021 18:57:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/java/</guid>
+      <description>java java语言的八个特征： 简单：相比C/C++简单。 分布式：基于网络的多主机写作。 面向对象：关注的是据有功能的对象。 健壮性：所有的类都必须有明确的数据类型。 安全：所有的类必须经过类加载器的检查。 跨平台：程序所以来的jvm实现了跨平台 性能好：Java是编译型，比解释型快 多线程：最大</description>
+    </item>
     
     <item>
       <title>docker</title>
@@ -197,7 +233,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yiye.lizhuo.asia/tools/</guid>
-      <description>学习一门技术的方法 大佬的链接：菜鸟教程，零壹軒·笔记,p3terx 所有的博客地址 备用博客oss搭建 github博客 1 mybook 博客园链接 分享盘 yiye分享 备份分享盘 telegraph临时编辑器</description>
+      <description>学习一门技术的方法 大佬的链接：菜鸟教程，零壹軒·笔记,p3terx 所有的博客地址 备用博客oss搭建 github博客 1 mybook 博客园链接 分享盘 yiye分享 OneDrive分享盘 telegraph临时编辑器 1</description>
     </item>
     
     <item>

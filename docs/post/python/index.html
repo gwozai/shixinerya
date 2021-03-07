@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+
+    <title>python小练习 | yiye blog</title>
+    <meta property="og:title" content="python小练习 - yiye blog">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2021-01-15T21:22:57&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2021-01-15T21:22:57&#43;08:00'>
+        
+    <meta name="Keywords" content="java,android,博客,项目管理,python,公众号,小程序">
+    <meta name="description" content="python小练习">
+        
+    <meta name="author" content="yiye">
+    <meta property="og:url" content="https://yiye.lizhuo.asia/post/python/">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    <script data-ad-client="ca-pub-3445455305181877" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
+    
+    
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://yiye.lizhuo.asia">
+                        yiye blog
+                    </a>
+                
+                <p class="description">专注于Android、Java</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://yiye.lizhuo.asia">首页</a>
+                    
+                    <a  href="https://yiye.lizhuo.asia/tools/" title="工具">工具</a>
+                    
+                    <a  href="https://yiye.lizhuo.asia/archives/" title="归档">归档</a>
+                    
+                    <a  href="https://yiye.lizhuo.asia/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#简单输出打印">简单输出打印</a>
+      <ul>
+        <li><a href="#石头剪刀布">石头剪刀布</a></li>
+      </ul>
+    </li>
+    <li><a href="#forwhile循环的使用">for、while循环的使用</a>
+      <ul>
+        <li><a href="#九九乘法表">九九乘法表</a></li>
+      </ul>
+    </li>
+    <li><a href="#字符串练习">字符串练习</a>
+      <ul>
+        <li><a href="#heading"></a></li>
+        <li><a href="#商品添加">商品添加</a></li>
+      </ul>
+    </li>
+    <li><a href="#元组tuple">元组(Tuple)</a></li>
+    <li><a href="#字典">字典</a></li>
+    <li><a href="#函数">函数</a>
+      <ul>
+        <li><a href="#小练习">小练习</a></li>
+      </ul>
+    </li>
+    <li><a href="#文件的读写操作">文件的读写操作</a></li>
+    <li><a href="#异常处理">异常处理</a>
+      <ul>
+        <li><a href="#try-catch-嵌套处理关闭文件">try catch 嵌套处理：关闭文件</a></li>
+        <li><a href="#小练习-1">小练习</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">python小练习</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2021年1月15日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/python'>python</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="clear" style="display: none">
+            <div class="toc-article">
+                <div class="toc-title">文章目录</div>
+            </div>
+        </div>
+        
+        <div class="post-content">
+            <h1 id="python小练习">python小练习</h1>
+<h2 id="简单输出打印">简单输出打印</h2>
+<h3 id="石头剪刀布">石头剪刀布</h3>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115144042111.png">
+            <img class="mx-auto" alt="image-20210115144042111" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115144042111.png" />
+        </a>
+    </p>
+<table>
+<thead>
+<tr>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">0</td>
+</tr>
+</tbody>
+</table>
+<p>不太会用python的数组，搞了好久没有搞出来😟</p>
+<p>我的大概思路是：</p>
+<p>用一个循环数组来存储数据：</p>
+<p>当前数 == 随机数 ： 平局</p>
+<p>当前的下一个 == 随机数 ：你输了</p>
+<p>当前数的下一个的下一个 == 随机数 ：你赢了</p>
+<h2 id="forwhile循环的使用">for、while循环的使用</h2>
+<pre><code>i = 0
+while i &lt; 10 :
+    if(i == 5) :
+        i += 1
+        continue
+    print(i)
+    i += 1
+</code></pre><h3 id="九九乘法表">九九乘法表</h3>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115160740475.png">
+            <img class="mx-auto" alt="image-20210115160740475" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115160740475.png" />
+        </a>
+    </p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000;font-weight:bold">for</span> i <span style="color:#000;font-weight:bold">in</span> <span style="color:#0086b3">range</span>(<span style="color:#099">1</span>,<span style="color:#099">10</span>) :
+    <span style="color:#000;font-weight:bold">for</span> j <span style="color:#000;font-weight:bold">in</span> <span style="color:#0086b3">range</span>(<span style="color:#099">1</span>,i<span style="color:#000;font-weight:bold">+</span><span style="color:#099">1</span>) :
+        <span style="color:#000;font-weight:bold">print</span>(<span style="color:#d14">&#34;</span><span style="color:#d14">%d</span><span style="color:#d14"> * </span><span style="color:#d14">%d</span><span style="color:#d14"> = </span><span style="color:#d14">%d</span><span style="color:#d14"> &#34;</span><span style="color:#000;font-weight:bold">%</span>(i,j,i<span style="color:#000;font-weight:bold">*</span>j),end<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;&#34;</span>)
+    <span style="color:#000;font-weight:bold">print</span>()
+</code></pre></td></tr></table>
+</div>
+</div><p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115212419309.png">
+            <img class="mx-auto" alt="image-20210115212419309" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115212419309.png" />
+        </a>
+    </p>
+<h2 id="字符串练习">字符串练习</h2>
+<h3 id="heading"></h3>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#0086b3">str</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;I love beautiful girl&#34;</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">str</span>[<span style="color:#099">2</span>:<span style="color:#099">6</span>]) <span style="color:#998;font-style:italic"># 前闭后开的区间 [2,5)</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">len</span>(<span style="color:#0086b3">str</span>))
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">type</span>(<span style="color:#0086b3">str</span>))
+name <span style="color:#000;font-weight:bold">=</span> [<span style="color:#d14">&#34;小雅&#34;</span>,<span style="color:#d14">&#34;小琪&#34;</span>,<span style="color:#d14">&#34;笑笑&#34;</span>,<span style="color:#d14">&#34;天天&#34;</span>,<span style="color:#d14">&#34;开心&#34;</span>]
+<span style="color:#998;font-style:italic"># 打印列表</span>
+<span style="color:#000;font-weight:bold">for</span> i <span style="color:#000;font-weight:bold">in</span> name :
+    <span style="color:#000;font-weight:bold">print</span>(i)
+<span style="color:#998;font-style:italic"># 打印列表长度</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">len</span>(name))
+<span style="color:#998;font-style:italic"># 使用appen</span>
+name<span style="color:#000;font-weight:bold">.</span>append(<span style="color:#d14">&#34;小夏&#34;</span>)
+<span style="color:#000;font-weight:bold">print</span>(name)
+<span style="color:#998;font-style:italic"># 使用extend扩展，</span>
+namePlus <span style="color:#000;font-weight:bold">=</span> [<span style="color:#d14">&#34;秦羽&#34;</span>,<span style="color:#d14">&#34;琳琳&#34;</span>]
+name<span style="color:#000;font-weight:bold">.</span>extend(namePlus)
+<span style="color:#000;font-weight:bold">print</span>(name)
+<span style="color:#998;font-style:italic"># del删除操作</span>
+<span style="color:#000;font-weight:bold">del</span> name[<span style="color:#099">4</span>]
+<span style="color:#000;font-weight:bold">print</span>(name)
+<span style="color:#998;font-style:italic"># pop弹出最后一个</span>
+name<span style="color:#000;font-weight:bold">.</span>pop()
+<span style="color:#000;font-weight:bold">print</span>(name)
+<span style="color:#998;font-style:italic"># remove移除指定的内容</span>
+name<span style="color:#000;font-weight:bold">.</span>remove(<span style="color:#d14">&#34;天天&#34;</span>)
+<span style="color:#000;font-weight:bold">print</span>(name)
+<span style="color:#998;font-style:italic"># 修改</span>
+name[<span style="color:#099">2</span>] <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;笑笑呀&#34;</span>
+<span style="color:#000;font-weight:bold">print</span>(name)
+<span style="color:#998;font-style:italic"># 查</span>
+<span style="color:#d14">&#39;&#39;&#39;
+</span><span style="color:#d14">findName = input(&#34;请输入要查找的姓名：&#34;)
+</span><span style="color:#d14">if findName in name:
+</span><span style="color:#d14">    print(&#34;this beautiful is exist&#34;)
+</span><span style="color:#d14">&#39;&#39;&#39;</span>
+<span style="color:#000;font-weight:bold">print</span>(name<span style="color:#000;font-weight:bold">.</span>index(<span style="color:#d14">&#34;小雅&#34;</span>,<span style="color:#099">0</span>,<span style="color:#099">5</span>)) <span style="color:#998;font-style:italic"># 用这个可以查看数组的下角标</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">str</span><span style="color:#000;font-weight:bold">.</span>count(<span style="color:#d14">&#34;o&#34;</span>)) <span style="color:#998;font-style:italic"># str.count(&#34;0&#34;) 统计 o 出现的次数</span>
+<span style="color:#998;font-style:italic"># 反转</span>
+<span style="color:#000;font-weight:bold">print</span>(name)
+name<span style="color:#000;font-weight:bold">.</span>reverse()
+<span style="color:#000;font-weight:bold">print</span>(name)
+name<span style="color:#000;font-weight:bold">.</span>sort()
+<span style="color:#000;font-weight:bold">print</span>(name)
+
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="商品添加">商品添加</h3>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115180332691.png">
+            <img class="mx-auto" alt="image-20210115180332691" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210115180332691.png" />
+        </a>
+    </p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">products <span style="color:#000;font-weight:bold">=</span> [[<span style="color:#d14">&#34;iphone&#34;</span>,<span style="color:#099">6888</span>],[<span style="color:#d14">&#34;MacPro&#34;</span>,<span style="color:#099">14800</span>],[<span style="color:#d14">&#34;小米&#34;</span>,<span style="color:#099">2499</span>],[<span style="color:#d14">&#34;Coffee&#34;</span>,<span style="color:#099">31</span>],[<span style="color:#d14">&#34;Book&#34;</span>,<span style="color:#099">60</span>],[<span style="color:#d14">&#34;Nike&#34;</span>,<span style="color:#099">699</span>]]
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#d14">&#34;-&#34;</span> <span style="color:#000;font-weight:bold">*</span> <span style="color:#099">5</span>,<span style="color:#d14">&#34;商品信息&#34;</span>,<span style="color:#d14">&#34;-&#34;</span> <span style="color:#000;font-weight:bold">*</span> <span style="color:#099">5</span>)
+<span style="color:#000;font-weight:bold">for</span> i <span style="color:#000;font-weight:bold">in</span> <span style="color:#0086b3">range</span>(<span style="color:#0086b3">len</span>(products)) :
+    <span style="color:#000;font-weight:bold">print</span>(i,<span style="color:#d14">&#34;</span><span style="color:#d14">\t</span><span style="color:#d14">&#34;</span>,products[i][<span style="color:#099">0</span>],<span style="color:#d14">&#34;</span><span style="color:#d14">\t</span><span style="color:#d14">&#34;</span>,products[i][<span style="color:#099">1</span>])
+buyStore <span style="color:#000;font-weight:bold">=</span> []
+<span style="color:#000;font-weight:bold">while</span> <span style="color:#099">1</span> :
+    tmp <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">input</span>(<span style="color:#d14">&#34;你想要买什么:&#34;</span>)
+    <span style="color:#000;font-weight:bold">if</span>(tmp <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#34;q&#34;</span>) :
+        <span style="color:#000;font-weight:bold">break</span>
+    i <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">int</span>(tmp)
+    buyStore<span style="color:#000;font-weight:bold">.</span>append(products[i])
+<span style="color:#000;font-weight:bold">print</span>(buyStore)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="元组tuple">元组(Tuple)</h2>
+<p>tuple与list类似，不同之处在于tuple元素不能修改。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#998;font-style:italic"># 创建元组空间</span>
+tup1 <span style="color:#000;font-weight:bold">=</span> (<span style="color:#099">50</span>) <span style="color:#998;font-style:italic"># &lt;class &#39;int&#39;&gt;</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">type</span>(tup1))
+tup2 <span style="color:#000;font-weight:bold">=</span> (<span style="color:#d14">&#34;asdf&#34;</span>) <span style="color:#998;font-style:italic"># &lt;class &#39;int&#39;&gt;</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#0086b3">type</span>(tup2))
+<span style="color:#998;font-style:italic"># 增: 用两个元组相加实现增加</span>
+tup3 <span style="color:#000;font-weight:bold">=</span> (<span style="color:#d14">&#34;wo&#34;</span>)
+<span style="color:#000;font-weight:bold">print</span>(tup3)
+typ4 <span style="color:#000;font-weight:bold">=</span> tup3 <span style="color:#000;font-weight:bold">+</span> tup2
+<span style="color:#000;font-weight:bold">print</span>(typ4[<span style="color:#099">0</span>:])
+<span style="color:#998;font-style:italic"># 删： 可以删除整个元组</span>
+<span style="color:#000;font-weight:bold">del</span> typ4
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="字典">字典</h2>
+<ol>
+<li>字典是无序的对象集合，使用键-值（key-value）存储，具有极快的查找速度。</li>
+<li>键（key）必须使用不可变类型。</li>
+<li>同一个字典中，键（key）必须是唯一的。</li>
+</ol>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#998;font-style:italic"># 字典</span>
+info <span style="color:#000;font-weight:bold">=</span> {<span style="color:#d14">&#34;name&#34;</span>:<span style="color:#d14">&#34;shuqi&#34;</span>,<span style="color:#d14">&#34;age&#34;</span>:<span style="color:#099">18</span>}
+<span style="color:#000;font-weight:bold">print</span>(info[<span style="color:#d14">&#34;name&#34;</span>])
+<span style="color:#000;font-weight:bold">print</span>(info[<span style="color:#d14">&#34;age&#34;</span>])
+<span style="color:#000;font-weight:bold">print</span>(info[<span style="color:#d14">&#34;huahu&#34;</span>])
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="函数">函数</h2>
+<p>
+        <a data-fancybox="gallery" href="http://hdyiye.yiye.show/img/image-20210116095229131.png">
+            <img class="mx-auto" alt="image-20210116095229131" src="http://hdyiye.yiye.show/img/image-20210116095229131.png" />
+        </a>
+    </p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#998;font-style:italic"># 带参数的函数</span>
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">add2Num</span>(a,b):
+	c <span style="color:#000;font-weight:bold">=</span>  a <span style="color:#000;font-weight:bold">+</span> b
+	<span style="color:#000;font-weight:bold">print</span>(c)
+add2Num(<span style="color:#099">11</span>,<span style="color:#099">22</span>)
+
+<span style="color:#998;font-style:italic"># 带多个返回值的函数</span>
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">add3Num</span>(a,b);
+	shang <span style="color:#000;font-weight:bold">=</span> a<span style="color:#000;font-weight:bold">/</span>b
+    yushu <span style="color:#000;font-weight:bold">=</span> a<span style="color:#000;font-weight:bold">%</span>b
+    <span style="color:#000;font-weight:bold">return</span> shang,yushu
+sh,yu <span style="color:#000;font-weight:bold">=</span> add3Num(<span style="color:#099">11</span>,<span style="color:#099">22</span>)
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="小练习">小练习</h3>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210116100028276.png">
+            <img class="mx-auto" alt="image-20210116100028276" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210116100028276.png" />
+        </a>
+    </p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#998;font-style:italic"># 函数的练习</span>
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">oneLine</span>() :
+    <span style="color:#000;font-weight:bold">print</span>(<span style="color:#d14">&#34;-&#34;</span> <span style="color:#000;font-weight:bold">*</span> <span style="color:#099">20</span>)
+
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">nLine</span>(a) :
+    <span style="color:#000;font-weight:bold">for</span> i <span style="color:#000;font-weight:bold">in</span> <span style="color:#0086b3">range</span>(a) :
+        oneLine()
+nLine(<span style="color:#099">5</span>)
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">threeNSum</span>(a,b,c) :
+    <span style="color:#000;font-weight:bold">return</span> a <span style="color:#000;font-weight:bold">+</span> b <span style="color:#000;font-weight:bold">+</span> c
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">avgThree</span>(a,b,c) :
+    <span style="color:#000;font-weight:bold">return</span> threeNSum(a,b,c) <span style="color:#000;font-weight:bold">//</span> <span style="color:#099">3</span>
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#d14">&#34;三个数的和：&#34;</span>,threeNSum(<span style="color:#099">10</span>,<span style="color:#099">50</span>,<span style="color:#099">40</span>))
+<span style="color:#000;font-weight:bold">print</span>(<span style="color:#d14">&#34;三个数的平均值&#34;</span>,avgThree(<span style="color:#099">10</span>,<span style="color:#099">50</span>,<span style="color:#099">40</span>))
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="文件的读写操作">文件的读写操作</h2>
+<p>
+        <a data-fancybox="gallery" href="http://hdyiye.yiye.show/img/image-20210116113316561.png">
+            <img class="mx-auto" alt="image-20210116113316561" src="http://hdyiye.yiye.show/img/image-20210116113316561.png" />
+        </a>
+    </p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(<span style="color:#d14">&#34;text.txt&#34;</span>,<span style="color:#d14">&#34;w&#34;</span>) <span style="color:#998;font-style:italic"># 以写的方式打开文件</span>
+<span style="color:#0086b3">str</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;I love beautiful girl&#34;</span>
+f<span style="color:#000;font-weight:bold">.</span>write(f) <span style="color:#998;font-style:italic"># 把字符串写入文件</span>
+f<span style="color:#000;font-weight:bold">.</span>close() <span style="color:#998;font-style:italic"># 关闭文件</span>
+f1 <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(<span style="color:#d14">&#34;text.txt1&#34;</span>,<span style="color:#d14">&#34;r&#34;</span>) <span style="color:#998;font-style:italic"># 以读的方式打开文件</span>
+f1<span style="color:#000;font-weight:bold">.</span>read(<span style="color:#099">5</span>) <span style="color:#998;font-style:italic"># 读取5字符串</span>
+f1<span style="color:#000;font-weight:bold">.</span>readLine() <span style="color:#998;font-style:italic"># 读取一行</span>
+f1<span style="color:#000;font-weight:bold">.</span>readLines() <span style="color:#998;font-style:italic"># 读取所有行</span>
+f1<span style="color:#000;font-weight:bold">.</span>close() <span style="color:#998;font-style:italic"># 关闭文件</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="异常处理">异常处理</h2>
+<h3 id="try-catch-嵌套处理关闭文件">try catch 嵌套处理：关闭文件</h3>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210116120619373.png">
+            <img class="mx-auto" alt="image-20210116120619373" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210116120619373.png" />
+        </a>
+    </p>
+<h3 id="小练习-1">小练习</h3>
+<p>
+        <a data-fancybox="gallery" href="https://gitee.com/yiyehub/CND/raw/main/note/image-20210116120654908.png">
+            <img class="mx-auto" alt="image-20210116120654908" src="https://gitee.com/yiyehub/CND/raw/main/note/image-20210116120654908.png" />
+        </a>
+    </p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">fWrite</span>(a,b) :
+    <span style="color:#000;font-weight:bold">try</span> :
+        f <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(a,<span style="color:#d14">&#34;w&#34;</span>,encoding<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;utf-8&#34;</span>) <span style="color:#998;font-style:italic"># utf-8的方式打开文件</span>
+        <span style="color:#000;font-weight:bold">try</span> :
+            f<span style="color:#000;font-weight:bold">.</span>write(b)
+        <span style="color:#000;font-weight:bold">finally</span>:
+            <span style="color:#998;font-style:italic"># print(&#34;文件已经关闭&#34;)</span>
+            f<span style="color:#000;font-weight:bold">.</span>close()
+    <span style="color:#000;font-weight:bold">except</span> <span style="color:#900;font-weight:bold">Exception</span> <span style="color:#000;font-weight:bold">as</span> result :
+        <span style="color:#000;font-weight:bold">print</span>(result)
+<span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">wWrite</span>(a,b) :
+    <span style="color:#000;font-weight:bold">try</span> :
+        f <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(a,<span style="color:#d14">&#34;r&#34;</span>,encoding<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;utf-8&#34;</span>)
+        c <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(b,<span style="color:#d14">&#34;w&#34;</span>,encoding<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;utf-8&#34;</span>)
+        <span style="color:#000;font-weight:bold">try</span> :
+            tmp <span style="color:#000;font-weight:bold">=</span> f<span style="color:#000;font-weight:bold">.</span>readlines()
+            <span style="color:#0086b3">str</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;&#34;</span>
+            <span style="color:#000;font-weight:bold">for</span> i <span style="color:#000;font-weight:bold">in</span> tmp :
+                <span style="color:#0086b3">str</span> <span style="color:#000;font-weight:bold">+=</span> i
+            c<span style="color:#000;font-weight:bold">.</span>write(<span style="color:#0086b3">str</span>)
+        <span style="color:#000;font-weight:bold">finally</span>:
+            f<span style="color:#000;font-weight:bold">.</span>close()
+            c<span style="color:#000;font-weight:bold">.</span>close()
+            <span style="color:#998;font-style:italic"># print(&#34;文件已经关闭&#34;)</span>
+    <span style="color:#000;font-weight:bold">except</span> <span style="color:#900;font-weight:bold">Exception</span> <span style="color:#000;font-weight:bold">as</span> result :
+        <span style="color:#000;font-weight:bold">print</span>(result)
+example <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;&#34;&#34;
+</span><span style="color:#d14">将进酒
+</span><span style="color:#d14">李白〔唐代〕
+</span><span style="color:#d14">君不见黄河之水天上来，奔流到海不复回。
+</span><span style="color:#d14">君不见高堂明镜悲白发，朝如青丝暮成雪。
+</span><span style="color:#d14">人生得意须尽欢，莫使金樽空对月。
+</span><span style="color:#d14">天生我材必有用，千金散尽还复来。
+</span><span style="color:#d14">烹羊宰牛且为乐，会须一饮三百杯。
+</span><span style="color:#d14">岑夫子，丹丘生，将进酒，杯莫停。
+</span><span style="color:#d14">与君歌一曲，请君为我倾耳听。(倾耳听 一作：侧耳听)
+</span><span style="color:#d14">钟鼓馔玉不足贵，但愿长醉不愿醒。(不足贵 一作：何足贵；不愿醒 一作：不复醒)
+</span><span style="color:#d14">古来圣贤皆寂寞，惟有饮者留其名。(古来 一作：自古；惟 通：唯)
+</span><span style="color:#d14">陈王昔时宴平乐，斗酒十千恣欢谑。
+</span><span style="color:#d14">主人何为言少钱，径须沽取对君酌。
+</span><span style="color:#d14">五花马、千金裘，呼儿将出换美酒，与尔同销万古愁。
+</span><span style="color:#d14">&#34;&#34;&#34;</span>
+fWrite(<span style="color:#d14">&#34;gushi.txt&#34;</span>,example)
+a,b <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">input</span>()<span style="color:#000;font-weight:bold">.</span>split(<span style="color:#d14">&#34; &#34;</span>) <span style="color:#998;font-style:italic"># 同时输入多个字符，以逗号隔开</span>
+wWrite(a,b)
+
+</code></pre></td></tr></table>
+</div>
+</div>
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>原文作者：</strong><a rel="author" href="https://yiye.lizhuo.asia">yiye</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://yiye.lizhuo.asia/post/python/">https://yiye.lizhuo.asia/post/python/</a></li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/java/">java</a></li>
+        
+        <li><a href="/post/docker/">docker</a></li>
+        
+        <li><a href="/post/hugo/">Hugo博客</a></li>
+        
+        <li><a href="/post/lanqiao/">蓝桥杯</a></li>
+        
+        <li><a href="/post/mongodb/">MongoDB</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/python'>python</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= ""
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2021 <a href="https://yiye.lizhuo.asia">yiye blog By yiye</a>
+        
+        | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">晋ICP备2020013641号</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://yiye.lizhuo.asia/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://yiye.lizhuo.asia">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/java_print%E6%A0%BC%E5%BC%8F%E6%89%93%E5%8D%B0/" title="java_print">java_print</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/java_data_structure/" title="java_data_structure">java_data_structure</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/python/" title="python小练习">python小练习</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/java/" title="java">java</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/docker/" title="docker">docker</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/hugo/" title="Hugo博客">Hugo博客</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/lanqiao/" title="蓝桥杯">蓝桥杯</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/mongodb/" title="MongoDB">MongoDB</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C%E5%87%86%E5%A4%87/" title="数据结构答辩准备">数据结构答辩准备</a>
+    </li>
+    
+    <li>
+        <a href="https://yiye.lizhuo.asia/post/%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87/" title="四级作文">四级作文</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title" style="color:red">福利派送</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a href="https://www.aliyun.com/1111/new?userCode=q8qrpnxv" title="精心挑选的热门优惠云产品，登录客户点击链接即成为您的关联客户购买最高可获31%返现。" target="_blank" style="color:red">
+                
+                    <img src="https://gitee.com/excellenthub/img/raw/master/440-240%201.jpg">
+                
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://marketing.qiniu.com/cps/redirect?redirect_id=1&amp;cps_key=1h5fe49iuzm8i" title="【渠道专享低折扣】11月特惠 限时2折" target="_blank" style="color:red">
+                
+                    <img src="http://hdyiye.yiye.show/img/CDN.png">
+                
+            </a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/Minio/">Minio (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/MongoDB/">MongoDB (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/OneDrive/">OneDrive (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/docker/">docker (2)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/git/">git (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/github/">github (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/hugo/">hugo (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/">idea激活 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/java/">java (3)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/jdk/">jdk (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/python/">python (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6/">必备软件 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E7%95%AA%E8%8C%84/">番茄 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/">答辩准备 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/">蓝桥杯 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/">谷粒商城 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E9%82%AE%E7%AE%B1/">邮箱 (1)</a></li>
+    
+    <li><a href="https://yiye.lizhuo.asia/categories/%E9%A1%B9%E7%9B%AE/">项目 (1)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
+    <a href="https://yiye.lizhuo.asia/tags/Minio/">Minio</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/MongoDB/">MongoDB</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/OneDrive/">OneDrive</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/docker/">docker</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/git/">git</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/github/">github</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/hugo/">hugo</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/idea%E6%BF%80%E6%B4%BB/">idea激活</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/java/">java</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/jdk/">jdk</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/python/">python</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86/">云服务商</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6/">必备软件</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E7%95%AA%E8%8C%84/">番茄</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E7%AD%94%E8%BE%A9%E5%87%86%E5%A4%87/">答辩准备</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/">蓝桥杯</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/">谷粒商城</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E9%82%AE%E7%AE%B1/">邮箱</a>
+    
+    <a href="https://yiye.lizhuo.asia/tags/%E9%A1%B9%E7%9B%AE/">项目</a>
+    
+</div>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="https://shixinerya.github.io/mybook/" title="book">book</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="http://share.yiye.show" title="yiye分享盘">yiye分享盘</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="https://yiye.lizhuo.asia/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

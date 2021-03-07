@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on yiye blog</title>
+    <link>https://yiye.lizhuo.asia/categories/python/</link>
+    <description>Recent content in python on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 15 Jan 2021 21:22:57 +0800</lastBuildDate>
+    
+	<atom:link href="https://yiye.lizhuo.asia/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>python小练习</title>
+      <link>https://yiye.lizhuo.asia/post/python/</link>
+      <pubDate>Fri, 15 Jan 2021 21:22:57 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/python/</guid>
+      <description>python小练习 简单输出打印 石头剪刀布 0 1 2 1 2 0 不太会用python的数组，搞了好久没有搞出来😟 我的大概思路是： 用一个循环数组来存储数据： 当前数 == 随机数 ： 平局 当前的下一个 == 随机数 ：你输了 当前数的下一个的下一个 == 随机数 ：你赢了 for、while循环的使用 i = 0 while i &amp;lt; 10 : if(i == 5) :</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on yiye blog</title>
+    <link>https://yiye.lizhuo.asia/categories/java/</link>
+    <description>Recent content in java on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 20 Jan 2021 23:49:57 +0800</lastBuildDate>
+    
+	<atom:link href="https://yiye.lizhuo.asia/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java_print</title>
+      <link>https://yiye.lizhuo.asia/post/java_print%E6%A0%BC%E5%BC%8F%E6%89%93%E5%8D%B0/</link>
+      <pubDate>Wed, 20 Jan 2021 23:49:57 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/java_print%E6%A0%BC%E5%BC%8F%E6%89%93%E5%8D%B0/</guid>
+      <description>java print的使用 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 public class printTest { public static void main(String[] args) { int x =1; double y =2.8888; System.out.println(&amp;#34;正常输出结果&amp;#34;); System.out.println(&amp;#34;x*y=&amp;#34;+x*y); System.out.println(&amp;#34;格式化输出结果右对齐&amp;#34;); System.out.print(&amp;#34;x*y=&amp;#34;); System.out.printf(&amp;#34;%.2f&amp;#34;,x*y); System.out.pr</description>
+    </item>
+    
+    <item>
+      <title>java_data_structure</title>
+      <link>https://yiye.lizhuo.asia/post/java_data_structure/</link>
+      <pubDate>Sat, 16 Jan 2021 17:01:57 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/java_data_structure/</guid>
+      <description>数据结构和算法 小练习 稀疏数组 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 public class arry { public static void main(String args[]) { System.out.println(&amp;#34;hello,world&amp;#34;); /** * 稀疏数组 */ //创建一个棋盘 int arrChese[][] = new int[11][11]; arrChese[2][4] = 2; arrChese[3][5] = 1; arrChese[6][4] = 2; // 输出原始的二维数组 int sum = 0; System</description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://yiye.lizhuo.asia/post/java/</link>
+      <pubDate>Wed, 06 Jan 2021 18:57:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/java/</guid>
+      <description>java java语言的八个特征： 简单：相比C/C++简单。 分布式：基于网络的多主机写作。 面向对象：关注的是据有功能的对象。 健壮性：所有的类都必须有明确的数据类型。 安全：所有的类必须经过类加载器的检查。 跨平台：程序所以来的jvm实现了跨平台 性能好：Java是编译型，比解释型快 多线程：最大</description>
+    </item>
+    
+  </channel>
+</rss>
