@@ -6,10 +6,64 @@
     <description>Recent content in Categories on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 Jan 2021 23:49:57 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 21:26:42 +0800</lastBuildDate>
     
 	<atom:link href="https://yiye.lizhuo.asia/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>云服务整理</title>
+      <link>https://yiye.lizhuo.asia/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%95%B4%E7%90%86/</link>
+      <pubDate>Thu, 25 Mar 2021 21:26:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%95%B4%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://yiye.lizhuo.asia/categories/markdown/</link>
+      <pubDate>Thu, 11 Mar 2021 15:18:07 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/categories/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>idea</title>
+      <link>https://yiye.lizhuo.asia/categories/idea/</link>
+      <pubDate>Wed, 10 Mar 2021 09:17:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/categories/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>谷歌访问</title>
+      <link>https://yiye.lizhuo.asia/categories/%E8%B0%B7%E6%AD%8C%E8%AE%BF%E9%97%AE/</link>
+      <pubDate>Tue, 09 Mar 2021 08:41:58 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/categories/%E8%B0%B7%E6%AD%8C%E8%AE%BF%E9%97%AE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spacedesk</title>
+      <link>https://yiye.lizhuo.asia/categories/spacedesk/</link>
+      <pubDate>Mon, 08 Mar 2021 22:12:00 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/categories/spacedesk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dataStructure</title>
+      <link>https://yiye.lizhuo.asia/categories/dataStructure/</link>
+      <pubDate>Sun, 07 Mar 2021 14:37:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/categories/dataStructure/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>java</title>
@@ -170,15 +224,6 @@
       <pubDate>Fri, 27 Nov 2020 16:15:10 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/categories/jdk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>idea激活</title>
-      <link>https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/</link>
-      <pubDate>Thu, 05 Nov 2020 19:17:42 +0800</pubDate>
-      
-      <guid>https://yiye.lizhuo.asia/categories/idea%E6%BF%80%E6%B4%BB/</guid>
       <description></description>
     </item>
     

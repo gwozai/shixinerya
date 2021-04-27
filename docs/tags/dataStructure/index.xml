@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataStructure on yiye blog</title>
+    <link>https://yiye.lizhuo.asia/tags/dataStructure/</link>
+    <description>Recent content in dataStructure on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 07 Mar 2021 14:37:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://yiye.lizhuo.asia/tags/dataStructure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>dataStructure</title>
+      <link>https://yiye.lizhuo.asia/post/dataStructure/</link>
+      <pubDate>Sun, 07 Mar 2021 14:37:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/dataStructure/</guid>
+      <description>1 稀疏数组 用稀疏数组可以对数据进行压缩 行 列 值 2 奇兔 改一下aria2的下载路线，share</description>
+    </item>
+    
+  </channel>
+</rss>

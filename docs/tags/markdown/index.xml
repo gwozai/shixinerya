@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on yiye blog</title>
+    <link>https://yiye.lizhuo.asia/tags/markdown/</link>
+    <description>Recent content in markdown on yiye blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 11 Mar 2021 15:18:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://yiye.lizhuo.asia/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>markdown</title>
+      <link>https://yiye.lizhuo.asia/post/markdown/</link>
+      <pubDate>Thu, 11 Mar 2021 15:18:07 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/markdown/</guid>
+      <description>markdown语法 嵌入视频 &amp;lt;video id=&amp;quot;video&amp;quot; controls=&amp;quot;&amp;quot; preload=&amp;quot;none&amp;quot;&amp;gt; &amp;lt;source id=&amp;quot;mp4&amp;quot; src=&amp;quot;http://shuqi.icu:8181/?/softward/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/rdp-win10.mp4&amp;quot;&amp;gt; &amp;lt;/video&amp;gt; &amp;lt;video id=&amp;quot;video&amp;quot; controls=&amp;quot;&amp;quot; preload=&amp;quot;none&amp;quot; poster=&amp;quot;http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg&amp;quot;&amp;gt; &amp;lt;source id=&amp;quot;mp4&amp;quot; src=&amp;quot;http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.mp4&amp;quot; type=&amp;quot;video/mp4&amp;quot;&amp;gt; &amp;lt;/video&amp;gt; 测试： 网络代码 音频嵌套 &amp;lt;audio id=&amp;quot;audio&amp;quot; controls=&amp;quot;&amp;quot; preload=&amp;quot;none&amp;quot;&amp;gt; &amp;lt;source id=&amp;quot;mp3&amp;quot; src=&amp;quot;http://oht4nlntk.bkt.clouddn.com/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3&amp;quot;&amp;gt; &amp;lt;/audio&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

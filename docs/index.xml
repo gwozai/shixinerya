@@ -6,10 +6,64 @@
     <description>Recent content on yiye blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 Jan 2021 23:49:57 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 21:26:42 +0800</lastBuildDate>
     
 	<atom:link href="https://yiye.lizhuo.asia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>云服务整理</title>
+      <link>https://yiye.lizhuo.asia/post/%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%95%B4%E7%90%86/</link>
+      <pubDate>Thu, 25 Mar 2021 21:26:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%95%B4%E7%90%86/</guid>
+      <description>云服务整理 阿里云：很稳定 腾讯云：活动做的很猛 七牛云： 可以白嫖 10G oss云盘：</description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://yiye.lizhuo.asia/post/markdown/</link>
+      <pubDate>Thu, 11 Mar 2021 15:18:07 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/markdown/</guid>
+      <description>markdown语法 嵌入视频 &amp;lt;video id=&amp;quot;video&amp;quot; controls=&amp;quot;&amp;quot; preload=&amp;quot;none&amp;quot;&amp;gt; &amp;lt;source id=&amp;quot;mp4&amp;quot; src=&amp;quot;http://shuqi.icu:8181/?/softward/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/rdp-win10.mp4&amp;quot;&amp;gt; &amp;lt;/video&amp;gt; &amp;lt;video id=&amp;quot;video&amp;quot; controls=&amp;quot;&amp;quot; preload=&amp;quot;none&amp;quot; poster=&amp;quot;http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg&amp;quot;&amp;gt; &amp;lt;source id=&amp;quot;mp4&amp;quot; src=&amp;quot;http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.mp4&amp;quot; type=&amp;quot;video/mp4&amp;quot;&amp;gt; &amp;lt;/video&amp;gt; 测试： 网络代码 音频嵌套 &amp;lt;audio id=&amp;quot;audio&amp;quot; controls=&amp;quot;&amp;quot; preload=&amp;quot;none&amp;quot;&amp;gt; &amp;lt;source id=&amp;quot;mp3&amp;quot; src=&amp;quot;http://oht4nlntk.bkt.clouddn.com/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3&amp;quot;&amp;gt; &amp;lt;/audio&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>idea</title>
+      <link>https://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</link>
+      <pubDate>Wed, 10 Mar 2021 09:17:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</guid>
+      <description>idea 2019.3.3破解 摘要： 系统环境：Win10 LTSC(1809) 64位 软件版本：IntelliJ IDEA 2019.3.3 所需的破解补丁和破解方法来自:https://zhile.io 软件下载地址</description>
+    </item>
+    
+    <item>
+      <title>谷歌访问</title>
+      <link>https://yiye.lizhuo.asia/post/%E8%B0%B7%E6%AD%8C%E4%B8%8A%E7%BD%91%E5%8A%A9%E6%89%8B%E7%9A%84%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Tue, 09 Mar 2021 08:41:58 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/%E8%B0%B7%E6%AD%8C%E4%B8%8A%E7%BD%91%E5%8A%A9%E6%89%8B%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
+      <description>谷歌访问 摘要： 谷歌访问可以极大的提升搜索效率 谷歌访问助手下载 官网 一页分享盘直接下载</description>
+    </item>
+    
+    <item>
+      <title>spacedesk</title>
+      <link>https://yiye.lizhuo.asia/post/spacedesk/</link>
+      <pubDate>Mon, 08 Mar 2021 22:12:00 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/spacedesk/</guid>
+      <description>spacedesk 摘要： 可手机变为电脑副屏的软件，用于边看视频边坐笔记 官网下载 手机的apk可以在Google商店找到 软件的分享盘下载地址 视频推荐：https://www.bilibili.com/video/BV1Dp4y1n7RG?t=3 安装流程 在百度搜索：spacedesk安装教程 具体方法以</description>
+    </item>
+    
+    <item>
+      <title>dataStructure</title>
+      <link>https://yiye.lizhuo.asia/post/dataStructure/</link>
+      <pubDate>Sun, 07 Mar 2021 14:37:42 +0800</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/dataStructure/</guid>
+      <description>1 稀疏数组 用稀疏数组可以对数据进行压缩 行 列 值 2 奇兔 改一下aria2的下载路线，share</description>
+    </item>
     
     <item>
       <title>java_print</title>
@@ -201,21 +255,21 @@
     </item>
     
     <item>
-      <title>idea激活</title>
-      <link>https://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</link>
-      <pubDate>Thu, 05 Nov 2020 19:17:42 +0800</pubDate>
-      
-      <guid>https://yiye.lizhuo.asia/post/IDEA2020.1.4%E6%BF%80%E6%B4%BB%E7%A0%81IDEA-%E6%B3%A8%E5%86%8C%E7%A0%81IDEA2020%E6%BF%80%E6%B4%BB%E7%A0%81/</guid>
-      <description>IDEA2020.1.4激活码,IDEA 注册码,IDEA2020激活码 蓝奏云 要用到的插件： https://myfileforever.lanzous.com/b01tqyapg 密码:gpvt 蓝奏云二维码： 下面是正文 2020-07-23 09:51:12 分类：文章 阅读(1K+) 评论(0) 2020.1.4 IDEA 正版激活，IntelliJ IDEA 全家桶 注册码一、温馨提示**1、**本教程适用于 IntelliJ IDEA 2020.1.4 以下所有版本idea202</description>
-    </item>
-    
-    <item>
       <title>github搜索技巧</title>
       <link>https://yiye.lizhuo.asia/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Mon, 05 Oct 2020 19:17:42 +0800</pubDate>
       
       <guid>https://yiye.lizhuo.asia/post/github%E6%90%9C%E6%89%80%E6%8A%80%E5%B7%A7/</guid>
       <description>github使用技巧 github搜索技巧 # 找一个springboot项目 in:name:springboot stars:&amp;gt;4000 pushed:&amp;gt;2020-01-01 language:java forks:&amp;gt;10000 # 找一个python项目 in:readme:spider 淘宝 stars:&amp;gt;1000 pushed:&amp;gt;2020-09-01</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yiye.lizhuo.asia/post/mawen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yiye.lizhuo.asia/post/mawen/</guid>
+      <description>springboot的helloworld</description>
     </item>
     
     <item>
@@ -233,7 +287,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yiye.lizhuo.asia/tools/</guid>
-      <description>学习一门技术的方法 大佬的链接：菜鸟教程，零壹軒·笔记,p3terx 所有的博客地址 备用博客oss搭建 github博客 1 mybook 博客园链接 分享盘 yiye分享 OneDrive分享盘 telegraph临时编辑器 1</description>
+      <description>学习一门技术的方法 大佬的链接：菜鸟教程，零壹軒·笔记,p3terx 所有的博客地址 备用博客oss搭建 github博客 1 mybook 博客园链接 分享盘 yiye分享 OneDrive分享盘 telegraph临时编辑器 1 v2ex论坛 natfrp</description>
     </item>
     
     <item>
